@@ -35,9 +35,6 @@ export function Navbar() {
             <Link href="/noticias" className="text-gray-700 hover:text-gray-900">
               Noticias
             </Link>
-            <Link href="/guias" className="text-gray-700 hover:text-gray-900">
-              Guías
-            </Link>
             <Link href="/marcas" className="text-gray-700 hover:text-gray-900">
               Marcas
             </Link>
