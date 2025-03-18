@@ -287,7 +287,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2023-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/public/renault5teaser.jpg?height=200&width=300",
   },
   {
     id: 22,
