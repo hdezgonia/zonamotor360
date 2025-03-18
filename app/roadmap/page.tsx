@@ -287,7 +287,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2023-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "renault5teaser.jpg?height=200&width=300",
+    image: "/renault5teaser.jpg?height=200&width=300",
   },
   {
     id: 22,
@@ -299,7 +299,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2023-05-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/renault-5-etech-back-view.jpg?height=200&width=300",
   },
   {
     id: 23,
@@ -311,7 +311,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2023-05-19", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/renault5review.jpg?height=200&width=300",
   },
   {
     id: 24,
@@ -385,7 +385,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2023-05-26", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/alpinerreview.jpg?height=200&width=300",
   },
   {
     id: 30,
