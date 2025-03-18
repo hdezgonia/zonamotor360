@@ -1,0 +1,65 @@
+{
+  "id": 3,
+  "title": "Polestar 2 Single Motor: Elegancia eléctrica y rendimiento sostenible",
+  "make": "Polestar",
+  "logoUrl": "/placeholder.svg?height=50&width=50&text=Polestar",
+  "model": "2",
+  "trim": "Single Motor",
+  "year": 2023,
+  "categories": ["Eléctrico", "Berlina"],
+  "price": "50.190 €",
+  "rating": {
+    "overall": 8.9,
+    "performance": 8.5,
+    "comfort": 9.0,
+    "practicality": 8.7,
+    "value": 8.5,
+    "design": 9.3,
+    "technology": 9.2,
+    "efficiency": 9.0,
+    "safety": 9.1,
+    "chargingEase": 8.8,
+    "range": 8.9,
+    "routeGeneration": 8.7
+  },
+  "excerpt": "El Polestar 2 Single Motor ofrece una experiencia de conducción eléctrica refinada y eficiente, con un diseño escandinavo minimalista y tecnología de vanguardia.",
+  "content": [
+    {
+      "type": "text",
+      "content": "El Polestar 2 Single Motor es una opción atractiva en el creciente mercado de vehículos eléctricos premium. Con su único motor eléctrico que produce 231 CV, ofrece un rendimiento más que suficiente para el uso diario, combinado con una eficiencia impresionante. El diseño exterior es elegante y distintivo, con líneas limpias que reflejan la herencia escandinava de la marca."
+    },
+    {
+      "type": "tip",
+      "content": "Utiliza el modo de conducción 'Range' y el frenado regenerativo al máximo para optimizar la eficiencia y aumentar tu autonomía en viajes largos."
+    },
+    {
+      "type": "text",
+      "content": "El interior es igualmente impresionante, con materiales sostenibles de alta calidad y un diseño minimalista centrado en la gran pantalla central con sistema operativo Android Automotive. La autonomía de hasta 540 km (WLTP) es competitiva, y la capacidad de carga rápida permite recargar del 10% al 80% en aproximadamente 35 minutos."
+    },
+    {
+      "type": "tip",
+      "content": "Mantén tu Polestar 2 siempre actualizado con las últimas mejoras de software a través de las actualizaciones over-the-air (OTA) para disfrutar de nuevas funciones y optimizaciones."
+    },
+    {
+      "type": "text",
+      "content": "La conducción es suave y silenciosa, con una dinámica bien equilibrada que ofrece tanto confort como agilidad. Aunque el espacio trasero podría ser más generoso, el Polestar 2 Single Motor ofrece un paquete global muy atractivo para aquellos que buscan un vehículo eléctrico premium con un toque de exclusividad."
+    },
+    {
+      "type": "tip",
+      "content": "Utiliza la app Polestar para encontrar estaciones de carga y planificar tus viajes. Intenta mantener la batería entre el 20% y el 80% para optimizar su vida útil."
+    }
+  ],
+  "imageUrl": "/placeholder.svg?height=600&width=800&text=Polestar+2+Single+Motor",
+  "specs": {
+    "power": "231 CV",
+    "acceleration": "7.4s 0-100 km/h",
+    "topSpeed": "160 km/h",
+    "efficiency": "17.1 kWh/100km",
+    "weight": "1940 kg"
+  },
+  "youtubeId": "dQw4w9WgXcQ",
+  "rivals": [1, 2, 4],
+  "reviewDate": "2023-09-05",
+  "isElectric": true
+}
+

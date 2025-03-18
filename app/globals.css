@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+/* Estilos para el modal de video */
+.video-modal {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90;
+}
+
+.video-modal .dialog-content {
+  @apply w-full h-full max-w-none max-h-none p-0 bg-transparent border-none shadow-none;
+}
+
+.video-modal .dialog-content > div {
+  @apply w-full h-full;
+}
+
+.video-modal .close-button {
+  @apply absolute top-4 right-4 text-white opacity-70 hover:opacity-100 transition-opacity duration-200 z-10;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+

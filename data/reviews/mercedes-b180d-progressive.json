@@ -1,0 +1,38 @@
+{
+  "id": 2,
+  "title": "Mercedes B180D Progressive: Versatilidad y lujo en formato compacto",
+  "make": "Mercedes",
+  "logoUrl": "/placeholder.svg?height=50&width=50&text=Mercedes",
+  "model": "B180D",
+  "trim": "Progressive",
+  "year": 2023,
+  "categories": ["Monovolumen", "Lujo"],
+  "price": "38.775 €",
+  "rating": {
+    "overall": 8.5,
+    "performance": 7.8,
+    "comfort": 9.0,
+    "practicality": 8.8,
+    "value": 8.0,
+    "design": 8.5,
+    "technology": 9.2,
+    "efficiency": 8.7,
+    "safety": 9.3
+  },
+  "excerpt": "El Mercedes B180D Progressive ofrece una combinación única de espacio, lujo y eficiencia, ideal para familias que buscan un toque de distinción.",
+  "content": "El Mercedes B180D Progressive representa una opción atractiva en el segmento de los monovolúmenes compactos de lujo. Su motor diésel de 2.0 litros con 116 CV ofrece un equilibrio ideal entre rendimiento y eficiencia, perfecto para largos viajes familiares. El interior espacioso y versátil es donde realmente brilla el B180D, con materiales de alta calidad y un diseño elegante que es característico de Mercedes. El sistema MBUX con su pantalla táctil de 10.25 pulgadas es intuitivo y repleto de funciones. La versión Progressive añade detalles estéticos y equipamiento que elevan aún más la experiencia premium. Aunque el rendimiento no es especialmente emocionante, la comodidad, la practicidad y la sensación de seguridad compensan con creces. El consumo contenido y las bajas emisiones hacen del B180D una opción inteligente para aquellos que buscan lujo y eficiencia en un paquete familiar.",
+  "imageUrl": "/placeholder.svg?height=600&width=800&text=Mercedes+B180D+Progressive",
+  "specs": {
+    "power": "116 CV",
+    "acceleration": "10.4s 0-100 km/h",
+    "topSpeed": "200 km/h",
+    "efficiency": "4.8 L/100km",
+    "weight": "1535 kg"
+  },
+  "youtubeId": "dQw4w9WgXcQ",
+  "rivals": [1, 3, 4],
+  "reviewDate": "2023-08-22",
+  "isElectric": false,
+  "kilometersRecorded": 10000
+}
+
