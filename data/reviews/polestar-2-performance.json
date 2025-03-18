@@ -1,0 +1,40 @@
+{
+  "id": 4,
+  "title": "Polestar 2 Performancen: Potencia eléctrica y deportividad sostenible",
+  "make": "Polestar",
+  "logoUrl": "/placeholder.svg?height=50&width=50&text=Polestar",
+  "model": "2",
+  "trim": "Performance",
+  "year": 2023,
+  "categories": ["Eléctrico", "Deportivo"],
+  "price": "64.190 €",
+  "rating": {
+    "overall": 9.2,
+    "performance": 8,
+    "comfort": 8.8,
+    "practicality": 8.5,
+    "value": 8.7,
+    "design": 9.3,
+    "technology": 9.4,
+    "efficiency": 8.8,
+    "safety": 9.2,
+    "chargingEase": 8.9,
+    "range": 8.7,
+    "routeGeneration": 8.8
+  },
+  "excerpt": "El Polestar 2 Performance lleva la experiencia de conducción eléctrica al siguiente nivel, combinando potencia impresionante con tecnología de vanguardia y un diseño escandinavo distintivo.",
+  "content": "El Polestar 2 Performance es la versión más potente y deportiva de la gama Polestar 2. Con sus dos motores eléctricos que producen un total de 476 CV, ofrece un rendimiento impresionante, acelerando de 0 a 100 km/h en tan solo 4.2 segundos. El paquete Performance incluye frenos Brembo, amortiguadores Öhlins ajustables y llantas de 20 pulgadas, lo que mejora significativamente la dinámica de conducción. El diseño exterior mantiene la elegancia escandinava característica de Polestar, pero con toques deportivos que subrayan sus capacidades. El interior combina lujo y deportividad, con materiales sostenibles de alta calidad y el avanzado sistema de infoentretenimiento basado en Android Automotive. La autonomía de hasta 500 km (WLTP) es ligeramente inferior a la versión Single Motor debido a su mayor potencia, pero sigue siendo muy competitiva. La recarga rápida permite cargar del 10% al 80% en aproximadamente 35 minutos. Aunque el precio es elevado, el Polestar 2 Performance ofrece una combinación única de rendimiento eléctrico, tecnología avanzada y diseño distintivo que lo hace destacar en el segmento de vehículos eléctricos premium deportivos.",
+  "imageUrl": "/placeholder.svg?height=600&width=800&text=Polestar+2+Performance",
+  "specs": {
+    "power": "476 CV",
+    "acceleration": "4.2s 0-100 km/h",
+    "topSpeed": "205 km/h",
+    "efficiency": "19.3 kWh/100km",
+    "weight": "2113 kg"
+  },
+  "youtubeId": "dQw4w9WgXcQ",
+  "rivals": [1, 2, 3],
+  "reviewDate": "2023-10-10",
+  "isElectric": true
+}
+

@@ -1,0 +1,78 @@
+{
+  "id": 1,
+  "title": "Mazda 3 Nagisa: Deportividad y elegancia en perfecta armonía",
+  "make": "Mazda",
+  "logoUrl": "/placeholder.svg?height=50&width=50&text=Mazda",
+  "model": "3",
+  "trim": "Nagisa",
+  "year": 2023,
+  "categories": ["Compacto", "Deportivo"],
+  "price": "32.525 €",
+  "rating": {
+    "overall": 8.7,
+    "performance": 8.5,
+    "comfort": 8.8,
+    "practicality": 8.6,
+    "value": 8.4,
+    "design": 9.2,
+    "technology": 8.5,
+    "efficiency": 8.3,
+    "safety": 9.0
+  },
+  "excerpt": "El Mazda 3 Nagisa combina a la perfección la deportividad y la elegancia, ofreciendo una experiencia de conducción emocionante sin sacrificar el confort.",
+  "summary": "# Mazda 3 Nagisa: Deportividad y Elegancia\n\n![Mazda 3 Nagisa](/placeholder.svg?height=400&width=600&text=Mazda+3+Nagisa)\n\nEl **Mazda 3 Nagisa** es una edición especial que eleva el atractivo del ya impresionante Mazda 3. Esta versión logra combinar magistralmente la deportividad con la elegancia característica de la marca.\n\n## Rendimiento\n\n- Motor Skyactiv-G de 2.0 litros\n- 150 CV de potencia\n- Respuesta inmediata del acelerador\n- Experiencia de conducción ágil\n\n## Diseño\n\n- Líneas aerodinámicas y elegantes\n- Interior de calidad premium\n- Detalles exclusivos de la edición Nagisa\n\n## Tecnología\n\n- Sistema de infoentretenimiento Mazda Connect\n- Tecnología de seguridad i-Activsense\n\nEl Mazda 3 Nagisa ofrece una experiencia de conducción emocionante sin sacrificar el confort, convirtiéndolo en una opción atractiva para los entusiastas del automóvil que buscan un compacto deportivo con un toque de distinción.",
+  "content": "# Mazda 3 Nagisa: La fusión perfecta de deportividad y elegancia\n\nEl Mazda 3 Nagisa es una edición especial que eleva aún más el atractivo del ya impresionante Mazda 3. Esta versión especial logra combinar de manera magistral la deportividad con la elegancia característica de la marca.\n\n## Rendimiento y conducción\n\nCon su motor **Skyactiv-G de 2.0 litros que produce 150 CV**, el Nagisa ofrece:\n\n- Un rendimiento vivaz\n- Una respuesta inmediata del acelerador\n- Una experiencia de conducción ágil y envolvente\n\nLa **suspensión deportiva** y la **dirección precisa** proporcionan un control excepcional, especialmente en carreteras sinuosas. Esto hace que cada viaje se convierta en una experiencia emocionante para el conductor.\n\n## Diseño y confort\n\nEl interior del Mazda 3 Nagisa mantiene la **calidad premium** característica de Mazda, con algunos toques especiales:\n\n- Detalles exclusivos de la edición Nagisa\n- Materiales de alta calidad\n- Diseño ergonómico centrado en el conductor\n\nAunque el espacio trasero podría ser más generoso, la comodidad general del vehículo es notable.\n\n## Tecnología y seguridad\n\nEl Nagisa no se queda atrás en términos de equipamiento moderno:\n\n1. **Tecnología de seguridad i-Activsense**: Incluye sistemas avanzados de asistencia al conductor.\n2. **Sistema de infoentretenimiento Mazda Connect**: Ofrece una interfaz intuitiva y funciones conectadas.\n\n## Conclusión\n\nEl Mazda 3 Nagisa ofrece un paquete global muy atractivo para aquellos que buscan un compacto con un toque deportivo y una estética refinada. Combina de manera exitosa:\n\n- Rendimiento ágil\n- Diseño elegante\n- Tecnología avanzada\n- Calidad de construcción superior\n\nAunque tiene algunas limitaciones en espacio, el Nagisa se posiciona como una opción emocionante en el segmento de los compactos deportivos.",
+  "imageUrl": "/placeholder.svg?height=600&width=800&text=Mazda+3+Nagisa",
+  "specs": {
+    "power": "150 CV",
+    "acceleration": "8.2s 0-100 km/h",
+    "topSpeed": "213 km/h",
+    "efficiency": "6.2 L/100km",
+    "weight": "1349 kg",
+    "engine": "2.0L 4 cilindros"
+  },
+  "youtubeId": "dQw4w9WgXcQ",
+  "rivals": [2, 3, 4],
+  "reviewDate": "2023-09-15",
+  "isElectric": false,
+  "fuelType": "gasoline",
+  "kilometersRecorded": 15000,
+  "medals": ["performance", "design", "eco"],
+  "accessories": [
+    {
+      "name": "Llantas de aleación de 18 pulgadas",
+      "description": "Diseño exclusivo Nagisa",
+      "price": "800 €"
+    },
+    {
+      "name": "Sistema de sonido Bose",
+      "description": "12 altavoces de alta fidelidad",
+      "price": "650 €"
+    },
+    {
+      "name": "Tapicería de cuero Nappa",
+      "description": "Color negro con costuras rojas",
+      "price": "1.200 €"
+    }
+  ],
+  "extras": [
+    {
+      "name": "Techo solar panorámico",
+      "description": "Con apertura eléctrica",
+      "price": "1.100 €"
+    },
+    {
+      "name": "Paquete de iluminación ambiental",
+      "description": "LED con múltiples colores",
+      "price": "350 €"
+    },
+    {
+      "name": "Head-up Display",
+      "description": "Proyección de información en el parabrisas",
+      "price": "600 €"
+    }
+  ],
+  "basePrice": "32.525 €",
+  "totalPrice": "37.225 €"
+}
+
