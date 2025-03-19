@@ -421,7 +421,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/a290_dinamic?height=200&width=300",
+    image: "/a290_dinamic.jpg?height=200&width=300",
   },
   {
     id: 33,
