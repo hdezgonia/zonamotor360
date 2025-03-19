@@ -693,7 +693,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/polestar4_frontal.jpg?height=200&width=300",
+    image: "/polestar4_review.jpg?height=200&width=300",
   },
   {
     id: 55,
