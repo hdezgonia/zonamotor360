@@ -669,7 +669,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar_4_teaser.jpg?height=200&width=300",
   },
   {
     id: 53,
@@ -681,7 +681,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar_4_back_2.jpg?height=200&width=300",
   },
   {
     id: 54,
@@ -693,7 +693,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar4_frontal.jpg?height=200&width=300",
   },
   {
     id: 55,
@@ -705,7 +705,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar4_multimedia.jpg?height=200&width=300",
   },
   {
     id: 56,
@@ -717,7 +717,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar4_multimedia.jpg?height=200&width=300",
   },
   {
     id: 57,
@@ -729,7 +729,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/polestar4_back_2.jpg?height=200&width=300",
   }
 ]
 
