@@ -37,8 +37,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Polestar 4 Performance 2025 en este teaser visual. ¡No te lo pierdas!",
     category: "video",
     status: "recorded",
-    date: "2023-03-23", // Jueves
-    recordingDate: "2023-03-15", // Grabado una semana antes
+    date: "2025-03-23", // Jueves
+    recordingDate: "2025-03-15", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -49,8 +49,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Polestar 4 Performance 2025. ¡No te lo pierdas!",
     category: "video",
     status: "recorded",
-    date: "2023-03-25", // Sábado
-    recordingDate: "2023-03-17", // Grabado unos días antes
+    date: "2025-03-25", // Sábado
+    recordingDate: "2025-03-17", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -61,8 +61,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Polestar 4 Performance 2025 en esta review completa.",
     category: "video",
     status: "recorded",
-    date: "2023-03-28", // Martes
-    recordingDate: "2023-03-20", // Grabado una semana antes
+    date: "2025-03-28", // Martes
+    recordingDate: "2025-03-20", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -73,8 +73,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Disfruta de tomas espectaculares del Polestar 4 Performance 2025 en acción.",
     category: "video",
     status: "recorded",
-    date: "2023-04-06", // Jueves
-    recordingDate: "2023-03-29", // Grabado una semana antes
+    date: "2025-04-06", // Jueves
+    recordingDate: "2025-03-29", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -85,8 +85,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Polestar 4 Performance 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-11", // Martes
-    recordingDate: "2023-04-03", // Grabado una semana antes
+    date: "2025-04-11", // Martes
+    recordingDate: "2025-04-03", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -97,8 +97,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Polestar 4 Performance 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-04-18", // Martes
-    recordingDate: "2023-04-10", // Grabado una semana antes
+    date: "2025-04-18", // Martes
+    recordingDate: "2025-04-10", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -109,8 +109,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Polestar 4 Performance 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-04-25", // Martes
-    recordingDate: "2023-04-17", // Grabado una semana antes
+    date: "2025-04-25", // Martes
+    recordingDate: "2025-04-17", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -123,8 +123,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Mazda 3 Nagisa 2025 en este teaser visual.",
     category: "video",
     status: "recorded",
-    date: "2023-03-30", // Jueves
-    recordingDate: "2023-03-22", // Grabado unos días antes
+    date: "2025-03-30", // Jueves
+    recordingDate: "2025-03-22", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -135,8 +135,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Mazda 3 Nagisa 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-01", // Sábado
-    recordingDate: "2023-03-24", // Grabado unos días antes
+    date: "2025-04-01", // Sábado
+    recordingDate: "2025-03-24", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -147,8 +147,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Mazda 3 Nagisa 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-04", // Martes
-    recordingDate: "2023-03-27", // Grabado una semana antes
+    date: "2025-04-04", // Martes
+    recordingDate: "2025-03-27", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -159,8 +159,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Disfruta de tomas espectaculares del Mazda 3 Nagisa 2025 en 4K.",
     category: "video",
     status: "recorded",
-    date: "2023-04-13", // Jueves
-    recordingDate: "2023-04-05", // Grabado unos días antes
+    date: "2025-04-13", // Jueves
+    recordingDate: "2025-04-05", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -171,8 +171,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Mazda 3 Nagisa 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-20", // Jueves
-    recordingDate: "2023-04-12", // Grabado unos días antes
+    date: "2025-04-20", // Jueves
+    recordingDate: "2025-04-12", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -183,8 +183,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Mazda 3 Nagisa 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-04-27", // Jueves
-    recordingDate: "2023-04-19", // Grabado unos días antes
+    date: "2025-04-27", // Jueves
+    recordingDate: "2025-04-19", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -195,8 +195,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Mazda 3 Nagisa 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-05-04", // Jueves
-    recordingDate: "2023-04-26", // Grabado unos días antes
+    date: "2025-05-04", // Jueves
+    recordingDate: "2025-04-26", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -209,8 +209,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Polestar 2 Performance 2025 en este teaser visual.",
     category: "video",
     status: "recorded",
-    date: "2023-04-15", // Sábado
-    recordingDate: "2023-04-07", // Grabado unos días antes
+    date: "2025-04-15", // Sábado
+    recordingDate: "2025-04-07", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -221,8 +221,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Polestar 2 Performance 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-18", // Martes
-    recordingDate: "2023-04-10", // Grabado una semana antes
+    date: "2025-04-18", // Martes
+    recordingDate: "2025-04-10", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -233,8 +233,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Polestar 2 Performance 2025 en esta review completa.",
     category: "video",
     status: "recorded",
-    date: "2023-04-22", // Sábado
-    recordingDate: "2023-04-14", // Grabado unos días antes
+    date: "2025-04-22", // Sábado
+    recordingDate: "2025-04-14", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -245,8 +245,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Polestar 2 Performance 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-04-29", // Sábado
-    recordingDate: "2023-04-21", // Grabado unos días antes
+    date: "2025-04-29", // Sábado
+    recordingDate: "2025-04-21", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -257,8 +257,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Polestar 2 Performance 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-05-06", // Sábado
-    recordingDate: "2023-04-28", // Grabado unos días antes
+    date: "2025-05-06", // Sábado
+    recordingDate: "2025-04-28", // Grabado unos días antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -269,8 +269,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Polestar 2 Performance 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-05-13", // Sábado
-    recordingDate: "2023-05-05", // Grabado una semana antes
+    date: "2025-05-13", // Sábado
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -283,8 +283,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Renault 5 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2023-05-19", // Viernes
-    recordingDate: "2023-05-12", // Grabado una semana antes
+    date: "2025-05-19", // Viernes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault5teaser.jpg?height=200&width=300",
@@ -295,8 +295,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2023-05-23", // Martes
-    recordingDate: "2023-05-16", // Grabado una semana antes
+    date: "2025-05-23", // Martes
+    recordingDate: "2025-05-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault-5-etech-back-view.jpg?height=200&width=300",
@@ -307,8 +307,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2023-05-26", // Viernes
-    recordingDate: "2023-05-19", // Grabado una semana antes
+    date: "2025-05-26", // Viernes
+    recordingDate: "2025-05-19", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault5review.jpg?height=200&width=300",
@@ -319,8 +319,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2023-05-30", // Martes
-    recordingDate: "2023-05-23", // Grabado una semana antes
+    date: "2025-05-30", // Martes
+    recordingDate: "2025-05-23", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -331,8 +331,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Renault 5 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2023-06-02", // Viernes
-    recordingDate: "2023-05-26", // Grabado una semana antes
+    date: "2025-06-02", // Viernes
+    recordingDate: "2025-05-26", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -343,8 +343,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Renault 5 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2023-06-06", // Martes
-    recordingDate: "2023-05-30", // Grabado una semana antes
+    date: "2025-06-06", // Martes
+    recordingDate: "2025-05-30", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -357,8 +357,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Alpine A290 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2023-05-26", // Viernes
-    recordingDate: "2023-05-19", // Grabado una semana antes
+    date: "2025-05-26", // Viernes
+    recordingDate: "2025-05-19", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -369,8 +369,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Alpine A290 2025.",
     category: "video",
     status: "planned",
-    date: "2023-05-30", // Martes
-    recordingDate: "2023-05-23", // Grabado una semana antes
+    date: "2025-05-30", // Martes
+    recordingDate: "2025-05-23", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -381,8 +381,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Alpine A290 2025 en esta review completa.",
     category: "video",
     status: "planned",
-    date: "2023-06-02", // Viernes
-    recordingDate: "2023-05-26", // Grabado una semana antes
+    date: "2025-06-02", // Viernes
+    recordingDate: "2025-05-26", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/alpinerreview.jpg?height=200&width=300",
@@ -393,8 +393,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Disfruta de tomas espectaculares del Alpine A290 2025 en acción.",
     category: "video",
     status: "planned",
-    date: "2023-06-06", // Martes
-    recordingDate: "2023-05-30", // Grabado una semana antes
+    date: "2025-06-06", // Martes
+    recordingDate: "2025-05-30", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -405,8 +405,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Alpine A290 2025.",
     category: "video",
     status: "planned",
-    date: "2023-06-09", // Viernes
-    recordingDate: "2023-06-02", // Grabado una semana antes
+    date: "2025-06-09", // Viernes
+    recordingDate: "2025-06-02", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -417,8 +417,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Alpine A290 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2023-06-13", // Martes
-    recordingDate: "2023-06-06", // Grabado una semana antes
+    date: "2025-06-13", // Martes
+    recordingDate: "2025-06-06", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -429,8 +429,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Alpine A290 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2023-06-16", // Viernes
-    recordingDate: "2023-06-09", // Grabado una semana antes
+    date: "2025-06-16", // Viernes
+    recordingDate: "2025-06-09", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -443,8 +443,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Mercedes B180D Progressive 2025 en este teaser visual.",
     category: "video",
     status: "recorded",
-    date: "2023-06-20", // Martes
-    recordingDate: "2023-06-13", // Grabado una semana antes
+    date: "2025-06-20", // Martes
+    recordingDate: "2025-06-13", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -455,8 +455,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Mercedes B180D Progressive 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-06-23", // Viernes
-    recordingDate: "2023-06-16", // Grabado una semana antes
+    date: "2025-06-23", // Viernes
+    recordingDate: "2025-06-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -467,8 +467,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Mercedes B180D Progressive 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-06-27", // Martes
-    recordingDate: "2023-06-20", // Grabado una semana antes
+    date: "2025-06-27", // Martes
+    recordingDate: "2025-06-20", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -479,8 +479,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Mercedes B180D Progressive 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-06-30", // Viernes
-    recordingDate: "2023-06-23", // Grabado una semana antes
+    date: "2025-06-30", // Viernes
+    recordingDate: "2025-06-23", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -491,8 +491,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Mercedes B180D Progressive 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-07-04", // Martes
-    recordingDate: "2023-06-27", // Grabado una semana antes
+    date: "2025-07-04", // Martes
+    recordingDate: "2025-06-27", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -503,8 +503,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Mercedes B180D Progressive 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-07-07", // Viernes
-    recordingDate: "2023-06-30", // Grabado una semana antes
+    date: "2025-07-07", // Viernes
+    recordingDate: "2025-06-30", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -516,9 +516,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Teaser - Dongfeng Box 2025: ¿El coche más curioso del año?",
     description: "Descubre el nuevo Dongfeng Box 2025 en este teaser visual.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-11", // Martes
-    recordingDate: "2023-07-04", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-11", // Martes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -528,9 +528,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Primeras Impresiones - Dongfeng Box 2025: ¿Un coche chino que sorprende?",
     description: "Nuestras primeras impresiones del Dongfeng Box 2025.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-14", // Viernes
-    recordingDate: "2023-07-07", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-14", // Viernes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -540,9 +540,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Review Completa - Dongfeng Box 2025: Análisis a fondo",
     description: "Todo lo que necesitas saber sobre el Dongfeng Box 2025.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-18", // Martes
-    recordingDate: "2023-07-11", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-18", // Martes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -552,9 +552,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Equipamiento Multimedia - Dongfeng Box 2025: Tecnología y conectividad",
     description: "Exploramos el sistema multimedia del Dongfeng Box 2025.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-21", // Viernes
-    recordingDate: "2023-07-14", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-21", // Viernes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -564,9 +564,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "POV Conducción - Dongfeng Box 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Dongfeng Box 2025 en primera persona.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-25", // Martes
-    recordingDate: "2023-07-18", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-25", // Martes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -576,9 +576,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Pros y Contras - Dongfeng Box 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Dongfeng Box 2025 en X minutos.",
     category: "video",
-    status: "recorded",
-    date: "2023-07-28", // Viernes
-    recordingDate: "2023-07-21", // Grabado una semana antes
+    status: "planned",
+    date: "2025-07-28", // Viernes
+    recordingDate: "2025-16-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -591,8 +591,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Polestar 2 Long Range Single Motor 2025 en este teaser visual.",
     category: "video",
     status: "recorded",
-    date: "2023-08-01", // Martes
-    recordingDate: "2023-07-25", // Grabado una semana antes
+    date: "2025-08-01", // Martes
+    recordingDate: "2025-07-25", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -603,8 +603,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Polestar 2 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-08-04", // Viernes
-    recordingDate: "2023-07-28", // Grabado una semana antes
+    date: "2025-08-04", // Viernes
+    recordingDate: "2025-07-28", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -615,8 +615,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Polestar 2 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-08-08", // Martes
-    recordingDate: "2023-08-01", // Grabado una semana antes
+    date: "2025-08-08", // Martes
+    recordingDate: "2025-08-01", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -627,8 +627,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Polestar 2 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-08-11", // Viernes
-    recordingDate: "2023-08-04", // Grabado una semana antes
+    date: "2025-08-11", // Viernes
+    recordingDate: "2025-08-04", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -639,8 +639,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Polestar 2 Long Range Single Motor 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-08-15", // Martes
-    recordingDate: "2023-08-08", // Grabado una semana antes
+    date: "2025-08-15", // Martes
+    recordingDate: "2025-08-08", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -651,8 +651,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Polestar 2 Long Range Single Motor 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-08-18", // Viernes
-    recordingDate: "2023-08-11", // Grabado una semana antes
+    date: "2025-08-18", // Viernes
+    recordingDate: "2025-08-11", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -665,8 +665,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Polestar 4 Long Range Single Motor 2025 en este teaser visual.",
     category: "video",
     status: "recorded",
-    date: "2023-08-22", // Martes
-    recordingDate: "2023-08-15", // Grabado una semana antes
+    date: "2025-08-22", // Martes
+    recordingDate: "2025-08-15", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -677,8 +677,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-08-25", // Viernes
-    recordingDate: "2023-08-18", // Grabado una semana antes
+    date: "2025-08-25", // Viernes
+    recordingDate: "2025-08-18", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -689,8 +689,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-08-29", // Martes
-    recordingDate: "2023-08-22", // Grabado una semana antes
+    date: "2025-08-29", // Martes
+    recordingDate: "2025-08-22", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -701,8 +701,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "recorded",
-    date: "2023-09-01", // Viernes
-    recordingDate: "2023-08-25", // Grabado una semana antes
+    date: "2025-09-01", // Viernes
+    recordingDate: "2025-08-25", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -713,8 +713,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Polestar 4 Long Range Single Motor 2025 en primera persona.",
     category: "video",
     status: "recorded",
-    date: "2023-09-05", // Martes
-    recordingDate: "2023-08-29", // Grabado una semana antes
+    date: "2025-09-05", // Martes
+    recordingDate: "2025-08-29", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -725,8 +725,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Polestar 4 Long Range Single Motor 2025 en X minutos.",
     category: "video",
     status: "recorded",
-    date: "2023-09-08", // Viernes
-    recordingDate: "2023-09-01", // Grabado una semana antes
+    date: "2025-09-08", // Viernes
+    recordingDate: "2025-09-01", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
