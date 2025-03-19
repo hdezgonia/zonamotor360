@@ -284,7 +284,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-19", // Viernes
-    recordingDate: "2025-05-12", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault5teaser.jpg?height=200&width=300",
@@ -296,7 +296,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-23", // Martes
-    recordingDate: "2025-05-16", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault-5-etech-back-view.jpg?height=200&width=300",
@@ -308,7 +308,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-26", // Viernes
-    recordingDate: "2025-05-19", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/renault5review.jpg?height=200&width=300",
@@ -320,7 +320,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-30", // Martes
-    recordingDate: "2025-05-23", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -332,7 +332,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-02", // Viernes
-    recordingDate: "2025-05-26", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -344,7 +344,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-06", // Martes
-    recordingDate: "2025-05-30", // Grabado una semana antes
+    recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -358,7 +358,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-26", // Viernes
-    recordingDate: "2025-05-19", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -370,7 +370,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-30", // Martes
-    recordingDate: "2025-05-23", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -382,7 +382,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-02", // Viernes
-    recordingDate: "2025-05-26", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/alpinerreview.jpg?height=200&width=300",
@@ -394,7 +394,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-06", // Martes
-    recordingDate: "2025-05-30", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -406,7 +406,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-09", // Viernes
-    recordingDate: "2025-06-02", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -418,7 +418,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-13", // Martes
-    recordingDate: "2025-06-06", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -430,7 +430,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-06-16", // Viernes
-    recordingDate: "2025-06-09", // Grabado una semana antes
+    recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
     image: "/placeholder.svg?height=200&width=300",
@@ -518,7 +518,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-11", // Martes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -530,7 +530,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-14", // Viernes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -542,7 +542,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-18", // Martes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -554,7 +554,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-21", // Viernes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -566,7 +566,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-25", // Martes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -578,7 +578,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-28", // Viernes
-    recordingDate: "2025-16-04", // Grabado una semana antes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
