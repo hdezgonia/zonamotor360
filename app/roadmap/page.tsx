@@ -278,7 +278,7 @@ const initialRoadmapData: RoadmapItem[] = [
 
   // Renault 5 (6 videos)
   {
-    id: 21,
+    id: 58,
     title: "Teaser - Renault 5 2025: ¿El regreso de un clásico?",
     description: "Descubre el nuevo Renault 5 2025 en este teaser visual.",
     category: "video",
@@ -290,7 +290,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5teaser.jpg?height=200&width=300",
   },
   {
-    id: 22,
+    id: 59,
     title: "Primeras Impresiones - Renault 5 2025: ¿Un coche para todos?",
     description: "Nuestras primeras impresiones del Renault 5 2025.",
     category: "video",
@@ -302,7 +302,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault-5-etech-back-view.jpg?height=200&width=300",
   },
   {
-    id: 23,
+    id: 60,
     title: "Review Completa - Renault 5 2025: Análisis a fondo",
     description: "Todo lo que necesitas saber sobre el Renault 5 2025.",
     category: "video",
@@ -314,7 +314,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5review.jpg?height=200&width=300",
   },
   {
-    id: 24,
+    id: 61,
     title: "Equipamiento Multimedia - Renault 5 2025: Tecnología y conectividad",
     description: "Exploramos el sistema multimedia del Renault 5 2025.",
     category: "video",
@@ -326,7 +326,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5_interior.jpg?height=200&width=300",
   },
   {
-    id: 25,
+    id: 62,
     title: "POV Conducción - Renault 5 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Renault 5 2025 en primera persona.",
     category: "video",
@@ -338,7 +338,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5_dinamic.jpg?height=200&width=300",
   },
   {
-    id: 26,
+    id: 63,
     title: "Pros y Contras - Renault 5 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Renault 5 2025 en X minutos.",
     category: "video",
@@ -352,7 +352,7 @@ const initialRoadmapData: RoadmapItem[] = [
 
   // Alpine A290 (7 videos)
   {
-    id: 27,
+    id: 64,
     title: "Teaser - Alpine A290 2025: ¿El deportivo eléctrico del futuro?",
     description: "Descubre el nuevo Alpine A290 2025 en este teaser visual.",
     category: "video",
@@ -364,7 +364,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpine_teaser.jpg?height=200&width=300",
   },
   {
-    id: 28,
+    id: 65,
     title: "Primeras Impresiones - Alpine A290 2025: ¿Un deportivo para enamorarse?",
     description: "Nuestras primeras impresiones del Alpine A290 2025.",
     category: "video",
@@ -376,7 +376,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpine_front.jpg?height=200&width=300",
   },
   {
-    id: 29,
+    id: 66,
     title: "Review Completa - Alpine A290 2025: Análisis técnico y de conducción",
     description: "Todo lo que necesitas saber sobre el Alpine A290 2025 en esta review completa.",
     category: "video",
@@ -388,7 +388,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpinerreview.jpg?height=200&width=300",
   },
   {
-    id: 30,
+    id: 67,
     title: "Cinemático - Alpine A290 2025: Conducción épica en 4K",
     description: "Disfruta de tomas espectaculares del Alpine A290 2025 en acción.",
     category: "video",
@@ -400,7 +400,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290cinematic.jpg?height=200&width=300",
   },
   {
-    id: 31,
+    id: 68,
     title: "Equipamiento Multimedia - Alpine A290 2025: Tecnología puntera",
     description: "Exploramos el sistema multimedia del Alpine A290 2025.",
     category: "video",
@@ -412,7 +412,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290_multimedia.jpg?height=200&width=300",
   },
   {
-    id: 32,
+    id: 69,
     title: "POV Conducción - Alpine A290 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Alpine A290 2025 en primera persona.",
     category: "video",
@@ -424,7 +424,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290_dinamic.jpg?height=200&width=300",
   },
   {
-    id: 33,
+    id: 70,
     title: "Pros y Contras - Alpine A290 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Alpine A290 2025 en X minutos.",
     category: "video",
