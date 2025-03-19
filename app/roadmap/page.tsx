@@ -361,7 +361,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/alpine_teaser.jpg?height=200&width=300",
   },
   {
     id: 28,
@@ -373,7 +373,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/alpine_front.jpg?height=200&width=300",
   },
   {
     id: 29,
@@ -397,7 +397,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/a290cinematic.jpg?height=200&width=300",
   },
   {
     id: 31,
@@ -409,7 +409,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/a290_multimedia.jpg?height=200&width=300",
   },
   {
     id: 32,
@@ -421,7 +421,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/a290_dinamic?height=200&width=300",
   },
   {
     id: 33,
@@ -433,7 +433,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/a290_pro_cons.jpg?height=200&width=300",
   },
 
   // Mercedes B180D Progressive (6 videos)
