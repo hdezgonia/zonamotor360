@@ -521,7 +521,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/dongfeng_detail.jpg?height=200&width=300",
   },
   {
     id: 41,
@@ -533,7 +533,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/dongfeng_back.jpg?height=200&width=300",
   },
   {
     id: 42,
@@ -545,7 +545,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/dongfeng_front.jpg?height=200&width=300",
   },
   {
     id: 43,
@@ -557,7 +557,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/dongfeng_interior.jpg?height=200&width=300",
   },
   {
     id: 44,
@@ -569,7 +569,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/dongfeng_marcha.jpg?height=200&width=300",
   },
   {
     id: 45,
@@ -581,7 +581,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "dongfeng_dual.jpg?height=200&width=300",
   },
 
   // Polestar 2 Long Range Single Motor (6 videos)
