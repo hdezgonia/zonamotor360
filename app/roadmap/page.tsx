@@ -283,7 +283,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Renault 5 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2025-05-19", // Viernes
+    date: "2025-05-13", // Viernes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -295,7 +295,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2025-05-23", // Martes
+    date: "2025-05-15", // Martes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -307,7 +307,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2025-05-26", // Viernes
+    date: "2025-05-17", // Viernes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -319,7 +319,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Renault 5 2025.",
     category: "video",
     status: "planned",
-    date: "2025-05-30", // Martes
+    date: "2025-05-19", // Martes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -331,7 +331,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Renault 5 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2025-06-02", // Viernes
+    date: "2025-05-21", // Viernes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -343,7 +343,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Renault 5 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2025-06-06", // Martes
+    date: "2025-05-23", // Martes
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -357,7 +357,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Alpine A290 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2025-05-26", // Viernes
+    date: "2025-05-25", // Viernes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -369,7 +369,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Alpine A290 2025.",
     category: "video",
     status: "planned",
-    date: "2025-05-30", // Martes
+    date: "2025-05-27", // Martes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -381,7 +381,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Alpine A290 2025 en esta review completa.",
     category: "video",
     status: "planned",
-    date: "2025-06-02", // Viernes
+    date: "2025-05-29", // Viernes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -393,7 +393,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Disfruta de tomas espectaculares del Alpine A290 2025 en acción.",
     category: "video",
     status: "planned",
-    date: "2025-06-06", // Martes
+    date: "2025-05-31", // Martes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -405,7 +405,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Alpine A290 2025.",
     category: "video",
     status: "planned",
-    date: "2025-06-09", // Viernes
+    date: "2025-06-03", // Viernes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -417,7 +417,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Alpine A290 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2025-06-13", // Martes
+    date: "2025-06-05", // Martes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -429,7 +429,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Alpine A290 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2025-06-16", // Viernes
+    date: "2025-06-07", // Viernes
     recordingDate: "2025-05-12", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
@@ -705,7 +705,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/polestar4_multimedia.jpg?height=200&width=300",
+    image: "/polestar4_dinamic.jpg?height=200&width=300",
   },
   {
     id: 56,
@@ -714,7 +714,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-05-08", // Martes
-    recordingDate: "2025-04-21", // Grabado una semana antes
+    recordingDate: "2025-04-21",
     priority: "high",
     percentComplete: 100,
     image: "/polestar4_multimedia.jpg?height=200&width=300",
@@ -729,7 +729,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
-    image: "/polestar4_back_2.jpg?height=200&width=300",
+    image: "/polestar_4_back_2.jpg?height=200&width=300",
   }
 ]
 
