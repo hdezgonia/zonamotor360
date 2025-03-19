@@ -278,7 +278,7 @@ const initialRoadmapData: RoadmapItem[] = [
 
   // Renault 5 (6 videos)
   {
-    id: 58,
+    id: 21,
     title: "Teaser - Renault 5 2025: ¿El regreso de un clásico?",
     description: "Descubre el nuevo Renault 5 2025 en este teaser visual.",
     category: "video",
@@ -290,7 +290,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5teaser.jpg?height=200&width=300",
   },
   {
-    id: 59,
+    id: 22,
     title: "Primeras Impresiones - Renault 5 2025: ¿Un coche para todos?",
     description: "Nuestras primeras impresiones del Renault 5 2025.",
     category: "video",
@@ -302,7 +302,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault-5-etech-back-view.jpg?height=200&width=300",
   },
   {
-    id: 60,
+    id: 23,
     title: "Review Completa - Renault 5 2025: Análisis a fondo",
     description: "Todo lo que necesitas saber sobre el Renault 5 2025.",
     category: "video",
@@ -314,7 +314,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5review.jpg?height=200&width=300",
   },
   {
-    id: 61,
+    id: 24,
     title: "Equipamiento Multimedia - Renault 5 2025: Tecnología y conectividad",
     description: "Exploramos el sistema multimedia del Renault 5 2025.",
     category: "video",
@@ -326,7 +326,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5_interior.jpg?height=200&width=300",
   },
   {
-    id: 62,
+    id: 25,
     title: "POV Conducción - Renault 5 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Renault 5 2025 en primera persona.",
     category: "video",
@@ -338,7 +338,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/renault5_dinamic.jpg?height=200&width=300",
   },
   {
-    id: 63,
+    id: 26,
     title: "Pros y Contras - Renault 5 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Renault 5 2025 en X minutos.",
     category: "video",
@@ -352,7 +352,7 @@ const initialRoadmapData: RoadmapItem[] = [
 
   // Alpine A290 (7 videos)
   {
-    id: 64,
+    id: 27,
     title: "Teaser - Alpine A290 2025: ¿El deportivo eléctrico del futuro?",
     description: "Descubre el nuevo Alpine A290 2025 en este teaser visual.",
     category: "video",
@@ -364,7 +364,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpine_teaser.jpg?height=200&width=300",
   },
   {
-    id: 65,
+    id: 28,
     title: "Primeras Impresiones - Alpine A290 2025: ¿Un deportivo para enamorarse?",
     description: "Nuestras primeras impresiones del Alpine A290 2025.",
     category: "video",
@@ -376,7 +376,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpine_front.jpg?height=200&width=300",
   },
   {
-    id: 66,
+    id: 29,
     title: "Review Completa - Alpine A290 2025: Análisis técnico y de conducción",
     description: "Todo lo que necesitas saber sobre el Alpine A290 2025 en esta review completa.",
     category: "video",
@@ -388,7 +388,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/alpinerreview.jpg?height=200&width=300",
   },
   {
-    id: 67,
+    id: 30,
     title: "Cinemático - Alpine A290 2025: Conducción épica en 4K",
     description: "Disfruta de tomas espectaculares del Alpine A290 2025 en acción.",
     category: "video",
@@ -400,7 +400,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290cinematic.jpg?height=200&width=300",
   },
   {
-    id: 68,
+    id: 31,
     title: "Equipamiento Multimedia - Alpine A290 2025: Tecnología puntera",
     description: "Exploramos el sistema multimedia del Alpine A290 2025.",
     category: "video",
@@ -412,7 +412,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290_multimedia.jpg?height=200&width=300",
   },
   {
-    id: 69,
+    id: 32,
     title: "POV Conducción - Alpine A290 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Alpine A290 2025 en primera persona.",
     category: "video",
@@ -424,7 +424,7 @@ const initialRoadmapData: RoadmapItem[] = [
     image: "/a290_dinamic.jpg?height=200&width=300",
   },
   {
-    id: 70,
+    id: 33,
     title: "Pros y Contras - Alpine A290 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Alpine A290 2025 en X minutos.",
     category: "video",
@@ -517,8 +517,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Dongfeng Box 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2025-07-11", // Martes
-    recordingDate: "2025-04-19", // Grabado una semana antes
+    date: "2025-04-18", // Martes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_detail.jpg?height=200&width=300",
@@ -529,8 +529,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Dongfeng Box 2025.",
     category: "video",
     status: "planned",
-    date: "2025-07-14", // Viernes
-    recordingDate: "2025-04-22", // Grabado una semana antes
+    date: "2025-04-20", // Viernes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_back.jpg?height=200&width=300",
@@ -541,8 +541,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Dongfeng Box 2025.",
     category: "video",
     status: "planned",
-    date: "2025-07-18", // Martes
-    recordingDate: "2025-04-24", // Grabado una semana antes
+    date: "2025-04-22", // Martes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_front.jpg?height=200&width=300",
@@ -553,8 +553,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Dongfeng Box 2025.",
     category: "video",
     status: "planned",
-    date: "2025-07-21", // Viernes
-    recordingDate: "2025-04-26", // Grabado una semana antes
+    date: "2025-04-24", // Viernes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_interior.jpg?height=200&width=300",
@@ -565,8 +565,8 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Dongfeng Box 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2025-07-25", // Martes
-    recordingDate: "2025-04-29", // Grabado una semana antes
+    date: "2025-04-26", // Martes
+    recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_marcha.jpg?height=200&width=300",
@@ -577,7 +577,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Dongfeng Box 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2025-05-01", // Viernes
+    date: "2025-04-28", // Viernes
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -592,7 +592,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "recorded",
     date: "2025-08-01", // Martes
-    recordingDate: "2025-04-21", // Grabado una semana antes
+    recordingDate: "2025-07-25", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -665,7 +665,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Descubre el nuevo Polestar 4 Long Range Single Motor 2025 en este teaser visual.",
     category: "video",
     status: "planned",
-    date: "2025-08-22", // Martes
+    date: "2025-04-30", // Martes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -677,7 +677,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Nuestras primeras impresiones del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "planned",
-    date: "2025-08-25", // Viernes
+    date: "2025-05-02", // Viernes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -689,7 +689,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Todo lo que necesitas saber sobre el Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "planned",
-    date: "2025-08-29", // Martes
+    date: "2025-05-04", // Martes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -701,7 +701,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Exploramos el sistema multimedia del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
     status: "planned",
-    date: "2025-09-01", // Viernes
+    date: "2025-05-06", // Viernes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -713,7 +713,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Conduce con nosotros el Polestar 4 Long Range Single Motor 2025 en primera persona.",
     category: "video",
     status: "planned",
-    date: "2025-09-05", // Martes
+    date: "2025-05-08", // Martes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -725,7 +725,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Polestar 4 Long Range Single Motor 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2025-09-08", // Viernes
+    date: "2025-05-10", // Viernes
     recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
