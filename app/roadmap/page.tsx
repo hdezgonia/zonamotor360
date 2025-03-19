@@ -518,7 +518,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-11", // Martes
-    recordingDate: "2025-04-16", // Grabado una semana antes
+    recordingDate: "2025-04-19", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_detail.jpg?height=200&width=300",
@@ -530,7 +530,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-14", // Viernes
-    recordingDate: "2025-04-16", // Grabado una semana antes
+    recordingDate: "2025-04-22", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_back.jpg?height=200&width=300",
@@ -542,7 +542,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-18", // Martes
-    recordingDate: "2025-04-16", // Grabado una semana antes
+    recordingDate: "2025-04-24", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_front.jpg?height=200&width=300",
@@ -554,7 +554,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-21", // Viernes
-    recordingDate: "2025-04-16", // Grabado una semana antes
+    recordingDate: "2025-04-26", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_interior.jpg?height=200&width=300",
@@ -566,7 +566,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "planned",
     date: "2025-07-25", // Martes
-    recordingDate: "2025-04-16", // Grabado una semana antes
+    recordingDate: "2025-04-29", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/dongfeng_marcha.jpg?height=200&width=300",
@@ -577,7 +577,7 @@ const initialRoadmapData: RoadmapItem[] = [
     description: "Resumen de pros y contras del Dongfeng Box 2025 en X minutos.",
     category: "video",
     status: "planned",
-    date: "2025-07-28", // Viernes
+    date: "2025-05-01", // Viernes
     recordingDate: "2025-04-16", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
@@ -592,7 +592,7 @@ const initialRoadmapData: RoadmapItem[] = [
     category: "video",
     status: "recorded",
     date: "2025-08-01", // Martes
-    recordingDate: "2025-07-25", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
