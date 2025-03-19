@@ -323,7 +323,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/renault5_interior.jpg?height=200&width=300",
   },
   {
     id: 25,
@@ -335,7 +335,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/renault5_dinamic.jpg?height=200&width=300",
   },
   {
     id: 26,
@@ -347,7 +347,7 @@ const initialRoadmapData: RoadmapItem[] = [
     recordingDate: "2025-05-05", // Grabado una semana antes
     priority: "high",
     percentComplete: 0,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/pros_cons.jpg?height=200&width=300",
   },
 
   // Alpine A290 (7 videos)
