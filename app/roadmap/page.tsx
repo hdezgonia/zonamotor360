@@ -664,9 +664,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Teaser - Polestar 4 Long Range Single Motor 2025: ¿Eléctrico y eficiente?",
     description: "Descubre el nuevo Polestar 4 Long Range Single Motor 2025 en este teaser visual.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-08-22", // Martes
-    recordingDate: "2025-08-15", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -676,9 +676,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Primeras Impresiones - Polestar 4 Long Range Single Motor 2025: ¿Un coche para el día a día?",
     description: "Nuestras primeras impresiones del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-08-25", // Viernes
-    recordingDate: "2025-08-18", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -688,9 +688,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Review Completa - Polestar 4 Long Range Single Motor 2025: Análisis a fondo",
     description: "Todo lo que necesitas saber sobre el Polestar 4 Long Range Single Motor 2025.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-08-29", // Martes
-    recordingDate: "2025-08-22", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -700,9 +700,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Equipamiento Multimedia - Polestar 4 Long Range Single Motor 2025: Tecnología y conectividad",
     description: "Exploramos el sistema multimedia del Polestar 4 Long Range Single Motor 2025.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-09-01", // Viernes
-    recordingDate: "2025-08-25", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -712,9 +712,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "POV Conducción - Polestar 4 Long Range Single Motor 2025: Sensaciones reales al volante",
     description: "Conduce con nosotros el Polestar 4 Long Range Single Motor 2025 en primera persona.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-09-05", // Martes
-    recordingDate: "2025-08-29", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
@@ -724,9 +724,9 @@ const initialRoadmapData: RoadmapItem[] = [
     title: "Pros y Contras - Polestar 4 Long Range Single Motor 2025: ¿Vale la pena?",
     description: "Resumen de pros y contras del Polestar 4 Long Range Single Motor 2025 en X minutos.",
     category: "video",
-    status: "recorded",
+    status: "planned",
     date: "2025-09-08", // Viernes
-    recordingDate: "2025-09-01", // Grabado una semana antes
+    recordingDate: "2025-04-21", // Grabado una semana antes
     priority: "high",
     percentComplete: 100,
     image: "/placeholder.svg?height=200&width=300",
