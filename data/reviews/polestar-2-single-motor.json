@@ -60,7 +60,7 @@
   "youtubeId": "dQw4w9WgXcQ",
   "rivals": [1, 2, 4],
   "reviewDate": "2023-09-05",
-  "isElectric": true
+  "isElectric": true,
   "reviewType": "first-impression",
   "medals": ["electric", "technology", "eco"],
   "summary": "El Polestar 2 Single Motor ofrece una experiencia eléctrica refinada con 540 km de autonomía y diseño escandinavo minimalista a un precio competitivo.",
