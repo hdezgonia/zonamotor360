@@ -346,7 +346,8 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                       renderLegacyContent((currentReview as any).content)
                     ) : (
                       // Nuevo: Markdown desde .md
-<ReactMarkdown
+    <p style={{color:"red"}}>DEBUG: markdownContent length = {markdownContent?.length}</p>
+              <ReactMarkdown
   className="prose prose-lg max-w-none"
   components={{
     h2: ({children}) => <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900">{children}</h2>,
