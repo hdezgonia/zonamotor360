@@ -346,9 +346,19 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                       renderLegacyContent((currentReview as any).content)
                     ) : (
                       // Nuevo: Markdown desde .md
-                      <ReactMarkdown className="prose prose-lg max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h3:text-xl prose-h3:mt-6 prose-p:leading-relaxed prose-p:text-gray-800 prose-strong:text-gray-900 prose-li:text-gray-800 prose-blockquote:border-l-4 prose-blockquote:border-blue-400 prose-blockquote:bg-blue-50 prose-blockquote:py-1 prose-blockquote:rounded-r">
-                        {markdownContent}
-                      </ReactMarkdown>
+<ReactMarkdown
+  className="prose prose-lg max-w-none"
+  components={{
+    h2: ({children}) => <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900">{children}</h2>,
+    h3: ({children}) => <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">{children}</h3>,
+    p: ({children}) => <p className="mb-4 leading-relaxed text-gray-800">{children}</p>,
+    strong: ({children}) => <strong className="font-bold text-gray-900">{children}</strong>,
+    ul: ({children}) => <ul className="list-disc pl-6 mb-4 space-y-1">{children}</ul>,
+    li: ({children}) => <li className="text-gray-800">{children}</li>,
+  }}
+>
+  {markdownContent}
+</ReactMarkdown>
                     )}
                   </section>
 
