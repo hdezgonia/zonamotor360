@@ -2,12 +2,50 @@ import mazda3NagisaReview from "./mazda-3-nagisa.json"
 import mercedesB180DReview from "./mercedes-b180d-progressive.json"
 import polestar2SingleMotorReview from "./polestar-2-single-motor.json"
 import polestar2PerformanceReview from "./polestar-2-performance.json"
+import civic_type_r from "./civic_type_r.json"
 import polestar4Review from "./polestar-4.json"
 import type { CarReview } from "./types"
 
 export const reviews: CarReview[] = [
   {
     ...mazda3NagisaReview,
+    reviewType: "detailed",
+    medals: ["performance", "design", "eco"],
+    summary: "El Mazda 3 Nagisa combina deportividad y elegancia en un paquete compacto y eficiente.",
+    accessories: [
+      {
+        name: "Llantas de aleación de 18 pulgadas",
+        description: "Diseño exclusivo Nagisa",
+        price: "800 €",
+      },
+      {
+        name: "Sistema de sonido Bose",
+        description: "12 altavoces de alta fidelidad",
+        price: "650 €",
+      },
+    ],
+    extras: [
+      {
+        name: "Techo solar panorámico",
+        description: "Con apertura eléctrica",
+        price: "1.100 €",
+      },
+      {
+        name: "Paquete de iluminación ambiental",
+        description: "LED con múltiples colores",
+        price: "350 €",
+      },
+      {
+        name: "Head-up Display",
+        description: "Proyección de información en el parabrisas",
+        price: "600 €",
+      },
+    ],
+    basePrice: "32.525 €",
+    totalPrice: "35.175 €",
+  },
+    {
+    ...civic_type_r,
     reviewType: "detailed",
     medals: ["performance", "design", "eco"],
     summary: "El Mazda 3 Nagisa combina deportividad y elegancia en un paquete compacto y eficiente.",
