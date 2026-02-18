@@ -1,78 +1,44 @@
 {
-  "id": 1,
-  "title": "Mazda 3 Nagisa: Deportividad y elegancia en perfecta armonía",
-  "make": "Mazda",
-  "logoUrl": "/placeholder.svg?height=50&width=50&text=Mazda",
-  "model": "3",
-  "trim": "Nagisa",
+  "id": 7,
+  "title": "Honda Civic Type R FL5: El Rey Japonés de Nürburgring",
+  "make": "Honda",
+  "logoUrl": "/hondalogo.png?height=50&width=50&text=Honda",
+  "model": "Civic Type R",
+  "trim": "FL5",
   "year": 2023,
-  "categories": ["Compacto", "Deportivo"],
-  "price": "32.525 €",
+  "categories": ["Hot Hatch", "Deportivo", "Gasolina"],
+  "price": "56.850 €",
   "rating": {
-    "overall": 8.7,
-    "performance": 8.5,
-    "comfort": 8.8,
-    "practicality": 8.6,
-    "value": 8.4,
-    "design": 9.2,
-    "technology": 9,
-    "efficiency": 8.3,
-    "safety": 9.0
+    "overall": 9.75,
+    "performance": 10.0,
+    "comfort": 9.25,
+    "practicality": 9.0,
+    "value": 9.5,
+    "design": 9.0,
+    "technology": 8.0,
+    "efficiency": 10,
+    "safety": 10,
+    "chargingEase": null,
+    "range": null,
+    "routeGeneration": null
   },
-  "excerpt": "El Mazda 3 Nagisa combina a la perfección la deportividad y la elegancia, ofreciendo una experiencia de conducción emocionante sin sacrificar el confort.",
-  "summary": "# Mazda 3 Nagisa: Deportividad y Elegancia\n\n![Mazda 3 Nagisa](/placeholder.svg?height=400&width=600&text=Mazda+3+Nagisa)\n\nEl **Mazda 3 Nagisa** es una edición especial que eleva el atractivo del ya impresionante Mazda 3. Esta versión logra combinar magistralmente la deportividad con la elegancia característica de la marca.\n\n## Rendimiento\n\n- Motor Skyactiv-G de 2.0 litros\n- 150 CV de potencia\n- Respuesta inmediata del acelerador\n- Experiencia de conducción ágil\n\n## Diseño\n\n- Líneas aerodinámicas y elegantes\n- Interior de calidad premium\n- Detalles exclusivos de la edición Nagisa\n\n## Tecnología\n\n- Sistema de infoentretenimiento Mazda Connect\n- Tecnología de seguridad i-Activsense\n\nEl Mazda 3 Nagisa ofrece una experiencia de conducción emocionante sin sacrificar el confort, convirtiéndolo en una opción atractiva para los entusiastas del automóvil que buscan un compacto deportivo con un toque de distinción.",
-  "content": "# Mazda 3 Nagisa: La fusión perfecta de deportividad y elegancia\n\nEl Mazda 3 Nagisa es una edición especial que eleva aún más el atractivo del ya impresionante Mazda 3. Esta versión especial logra combinar de manera magistral la deportividad con la elegancia característica de la marca.\n\n## Rendimiento y conducción\n\nCon su motor **Skyactiv-G de 2.0 litros que produce 150 CV**, el Nagisa ofrece:\n\n- Un rendimiento vivaz\n- Una respuesta inmediata del acelerador\n- Una experiencia de conducción ágil y envolvente\n\nLa **suspensión deportiva** y la **dirección precisa** proporcionan un control excepcional, especialmente en carreteras sinuosas. Esto hace que cada viaje se convierta en una experiencia emocionante para el conductor.\n\n## Diseño y confort\n\nEl interior del Mazda 3 Nagisa mantiene la **calidad premium** característica de Mazda, con algunos toques especiales:\n\n- Detalles exclusivos de la edición Nagisa\n- Materiales de alta calidad\n- Diseño ergonómico centrado en el conductor\n\nAunque el espacio trasero podría ser más generoso, la comodidad general del vehículo es notable.\n\n## Tecnología y seguridad\n\nEl Nagisa no se queda atrás en términos de equipamiento moderno:\n\n1. **Tecnología de seguridad i-Activsense**: Incluye sistemas avanzados de asistencia al conductor.\n2. **Sistema de infoentretenimiento Mazda Connect**: Ofrece una interfaz intuitiva y funciones conectadas.\n\n## Conclusión\n\nEl Mazda 3 Nagisa ofrece un paquete global muy atractivo para aquellos que buscan un compacto con un toque deportivo y una estética refinada. Combina de manera exitosa:\n\n- Rendimiento ágil\n- Diseño elegante\n- Tecnología avanzada\n- Calidad de construcción superior\n\nAunque tiene algunas limitaciones en espacio, el Nagisa se posiciona como una opción emocionante en el segmento de los compactos deportivos.",
-  "imageUrl": "/placeholder.svg?height=600&width=800&text=Mazda+3+Nagisa",
+  "excerpt": "El Honda Civic Type R FL5 es el hot hatch de referencia absoluta. Con el récord de tracción delantera en Nürburgring en el bolsillo y 329 CV que se transmiten al asfalto con una eficacia sobrenatural, este japonés demuestra que no necesitas tracción total ni turbo de seis cilindros para dominar el segmento.",
+  "content": "Hay coches que existen para llevarte del punto A al punto B. Y luego hay coches que existen para recordarte por qué te enamoraste de los coches. El Honda Civic Type R FL5 pertenece sin ninguna duda al segundo grupo.\n\nEl FL5 llegó en 2023 para sustituir al ya legendario FK8, y desde el primer día dejó claro que no venía a hacer amigos: venía a ser el mejor hot hatch del planeta. ¿Lo consiguió? El tiempo de 7:44.881 en Nürburgring —récord mundial de tracción delantera— responde mejor que cualquier argumento.\n\nEl motor K20C1 de 2.0 litros turbo entrega 329 CV y 420 Nm de par. En tracción delantera. Lo que en teoría suena a receta para el torque steer y el caos, Honda lo resuelve con el revolucionario sistema Dual Axis Strut y un LSD mecánico que distribuye el par con una precisión quirúrgica. El resultado es un coche que gira, agarra y sale disparado de las curvas con una naturalidad que desafía las leyes de la física.\n\nEl exterior es agresivo pero no de circo: entradas de aire funcionales, pasos de rueda ensanchados, llantas Brembo de 19 pulgadas con Michelin Pilot Sport 4S de serie, y las tres salidas de escape centrales que son la firma inconfundible del Type R. El interior sorprende con asientos Recaro de serie, volante de Alcantara y un sistema de telemetría integrado que muestra temperaturas, presión de turbo y G-forces en tiempo real.\n\nEn modo Comfort es un GT civilizado que consume 6.5-7.5 L/100km en carretera. En modo +R, el Launch Control, la suspensión adaptativa endurecida y el cuadro de instrumentos en modo pista convierten cada tramo en una sesión de circuito. El maletero de 473 litros y el Honda Sensing completo de serie demuestran que Honda no olvidó que este coche también tiene que vivir en el mundo real.\n\nNo hay versión, no hay opciones: o lo coges todo o no hay nada. Y todo incluye lo que necesitas para tener el hot hatch más capaz del mercado. Por unos 51.500 euros, es una de las mejores inversiones que puede hacer un conductor que sabe lo que quiere.",
+  "imageUrl": "/HondaCivicTypeR_FL5.jpg?height=600&width=800&text=Honda+Civic+Type+R+FL5",
   "specs": {
-    "power": "150 CV",
-    "acceleration": "8.2s 0-100 km/h",
-    "topSpeed": "213 km/h",
-    "efficiency": "6.2 L/100km",
-    "weight": "1349 kg",
-    "engine": "2.0L 4 cilindros"
+    "power": "329 CV",
+    "acceleration": "5.4s 0-100 km/h",
+    "topSpeed": "272 km/h",
+    "efficiency": "8.9 L/100km (WLTP)",
+    "weight": "1429 kg",
+    "engine": "2.0L Turbo K20C1",
+    "torque": "420 Nm",
+    "drivetrain": "FWD + LSD mecánico",
+    "transmission": "Manual 6 velocidades",
+    "nurburgring": "7:44.881 (récord FWD)"
   },
   "youtubeId": "dQw4w9WgXcQ",
-  "rivals": [2, 3, 4],
-  "reviewDate": "2023-09-15",
-  "isElectric": false,
-  "fuelType": "gasoline",
-  "kilometersRecorded": 15000,
-  "medals": ["performance", "design", "eco"],
-  "accessories": [
-    {
-      "name": "Llantas de aleación de 18 pulgadas",
-      "description": "Diseño exclusivo Nagisa",
-      "price": "800 €"
-    },
-    {
-      "name": "Sistema de sonido Bose",
-      "description": "12 altavoces de alta fidelidad",
-      "price": "650 €"
-    },
-    {
-      "name": "Tapicería de cuero Nappa",
-      "description": "Color negro con costuras rojas",
-      "price": "1.200 €"
-    }
-  ],
-  "extras": [
-    {
-      "name": "Techo solar panorámico",
-      "description": "Con apertura eléctrica",
-      "price": "1.100 €"
-    },
-    {
-      "name": "Paquete de iluminación ambiental",
-      "description": "LED con múltiples colores",
-      "price": "350 €"
-    },
-    {
-      "name": "Head-up Display",
-      "description": "Proyección de información en el parabrisas",
-      "price": "600 €"
-    }
-  ],
-  "basePrice": "32.525 €",
-  "totalPrice": "37.225 €"
+  "rivals": [1, 2, 3],
+  "reviewDate": "2024-03-15",
+  "isElectric": false
 }
-
