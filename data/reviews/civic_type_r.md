@@ -1,5 +1,4 @@
-## Honda Civic Type R FL5 — La Bestia que Honda no Tenía que Hacer (Pero lo Hizo)
-
+## Honda Civic Type R FL5 — La Bestia que Honda no tenía por que hacer, pero lo hizo (¡GRACIAS!)
 ## Introducción
 
 Hay coches que existen para llevarte del punto A al punto B. Y luego hay coches que existen para recordarte por qué te enamoraste de los coches. El Honda Civic Type R FL5 pertenece sin ninguna duda al segundo grupo, y lo hace con una naturalidad desarmante que solo los japoneses saben ejecutar.
@@ -181,6 +180,7 @@ Porque el FL5 tiene detalles que lo hacen único y merecen párrafo propio:
 **El Launch Control.** Activas Launch Control manteniendo el freno, aceleras hasta el régimen óptimo, sueltas y... el coche simplemente se va. Sin dramas, sin derrapes salvajes, con una eficacia aplastante.
 
 **El Dual Axis Strut.** Una solución de ingeniería patentada por Honda que resuelve elegantemente el mayor problema de los hot hatch de tracción delantera. Invisible al usuario, revolucionaria en concepto.
+> Dual Axis Strut Suspension https://global.honda/en/tech/Dual_Axis_Strut_Suspension/
 
 **El Log-R.** El sistema de registro de telemetría integrado que guarda tus sesiones de conducción dinámica para analizarlas después. En un coche de serie. En 2024. Increíble.
 
