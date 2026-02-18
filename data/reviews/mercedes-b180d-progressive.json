@@ -33,7 +33,7 @@
   "rivals": [1, 3, 4],
   "reviewDate": "2023-08-22",
   "isElectric": false,
-  "kilometersRecorded": 10000
+  "kilometersRecorded": 10000,
   "reviewType": "short",
   "fuelType": "diesel",
   "medals": ["luxury", "efficiency", "reliability"],
