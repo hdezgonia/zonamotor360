@@ -34,5 +34,41 @@
   "reviewDate": "2023-08-22",
   "isElectric": false,
   "kilometersRecorded": 10000
+  "reviewType": "short",
+  "fuelType": "diesel",
+  "medals": ["luxury", "efficiency", "reliability"],
+  "summary": "El Mercedes B180D Progressive ofrece lujo y eficiencia en un formato monovolumen compacto, ideal para familias que no quieren renunciar a la distinción.",
+  "accessories": [
+    {
+      "name": "Paquete Night",
+      "description": "Elementos exteriores en negro brillante",
+      "price": "550 €"
+    },
+    {
+      "name": "Asientos calefactados",
+      "description": "Para conductor y acompañante",
+      "price": "400 €"
+    }
+  ],
+  "extras": [
+    {
+      "name": "Sistema de navegación MBUX",
+      "description": "Con realidad aumentada",
+      "price": "1.200 €"
+    },
+    {
+      "name": "Paquete de aparcamiento con cámara 360°",
+      "description": "Incluye asistente de aparcamiento activo",
+      "price": "900 €"
+    },
+    {
+      "name": "Techo panorámico",
+      "description": "Con apertura eléctrica",
+      "price": "1.500 €"
+    }
+  ],
+  "basePrice": "38.775 €",
+  "totalPrice": "42.375 €"
+
 }
 
