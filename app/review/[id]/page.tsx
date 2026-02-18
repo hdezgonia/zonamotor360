@@ -60,22 +60,21 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
     setCurrentReview(reviews.find((r) => r.id === Number.parseInt(params.id)))
   }, [params.id])
 
-  // Carga el .md cuando cambia la review
   useEffect(() => {
     if (!currentReview) return
     setMarkdownContent(null)
 
-    const slug = currentReview.slug || null
+    const slug = (currentReview as any).slug || null
     if (!slug) {
-      // Fallback: usa el content del JSON si existe (reviews legacy)
-      setMarkdownContent(typeof currentReview.content === "string" ? currentReview.content : null)
+      const legacyContent = (currentReview as any).content
+      setMarkdownContent(typeof legacyContent === "string" ? legacyContent : null)
       return
     }
 
     fetch(`/api/review-content/${slug}`)
       .then((r) => r.json())
-      .then((d) => setMarkdownContent(d.content ?? null))
-      .catch(() => setMarkdownContent(null))
+      .then((d) => setMarkdownContent(d.content ?? ""))
+      .catch(() => setMarkdownContent(""))
   }, [currentReview])
 
   if (!currentReview) {
@@ -106,18 +105,76 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
       value: currentReview.rating.performance,
       description: "Evaluación del comportamiento dinámico del vehículo, incluyendo aceleración, frenada y maniobrabilidad.",
       subcategories: [
-        { key: "irregularSurface", title: "Suelo irregular", value: (currentReview.rating as any).irregularSurface || 8.5, description: "Comportamiento del vehículo en carreteras con baches o pavimento deteriorado." },
-        { key: "goodSurface", title: "Suelo en buen estado", value: (currentReview.rating as any).goodSurface || 8.7, description: "Comportamiento en carreteras bien pavimentadas y superficies lisas." },
+        {
+          key: "irregularSurface",
+          title: "Suelo irregular",
+          value: (currentReview.rating as any).irregularSurface || 8.5,
+          description: "Comportamiento del vehículo en carreteras con baches o pavimento deteriorado.",
+        },
+        {
+          key: "goodSurface",
+          title: "Suelo en buen estado",
+          value: (currentReview.rating as any).goodSurface || 8.7,
+          description: "Comportamiento en carreteras bien pavimentadas y superficies lisas.",
+        },
       ],
     },
-    { key: "funToDrive", title: "Diversión al volante", icon: Smile, value: (currentReview.rating as any).funToDrive || 8.6, description: "Sensaciones que transmite el vehículo durante la conducción y nivel de disfrute que proporciona." },
-    { key: "comfort", title: "Confort", icon: Star, value: currentReview.rating.comfort, description: "Calidad de marcha, aislamiento acústico, comodidad de los asientos y suspensión." },
-    { key: "practicality", title: "Practicidad", icon: EtherealCarIcon, value: currentReview.rating.practicality, description: "Espacio interior, capacidad del maletero, versatilidad y facilidad de uso diario." },
-    { key: "value", title: "Valor", icon: Award, value: currentReview.rating.value, description: "Relación calidad-precio, equipamiento de serie y coste de mantenimiento." },
-    { key: "design", title: "Diseño", icon: Tool, value: currentReview.rating.design, description: "Estética exterior e interior, calidad de materiales y acabados." },
-    { key: "technology", title: "Tecnología", icon: Zap, value: currentReview.rating.technology, description: "Sistemas de infoentretenimiento, conectividad, asistentes a la conducción y tecnologías innovadoras." },
-    { key: "efficiency", title: "Eficiencia", icon: Battery, value: currentReview.rating.efficiency, description: "Consumo de combustible o energía, emisiones y eficiencia general del vehículo." },
-    { key: "safety", title: "Seguridad", icon: Shield, value: currentReview.rating.safety, description: "Sistemas de seguridad activa y pasiva, resultados en pruebas de choque y protección de ocupantes." },
+    {
+      key: "funToDrive",
+      title: "Diversión al volante",
+      icon: Smile,
+      value: (currentReview.rating as any).funToDrive || 8.6,
+      description: "Sensaciones que transmite el vehículo durante la conducción y nivel de disfrute que proporciona.",
+    },
+    {
+      key: "comfort",
+      title: "Confort",
+      icon: Star,
+      value: currentReview.rating.comfort,
+      description: "Calidad de marcha, aislamiento acústico, comodidad de los asientos y suspensión.",
+    },
+    {
+      key: "practicality",
+      title: "Practicidad",
+      icon: EtherealCarIcon,
+      value: currentReview.rating.practicality,
+      description: "Espacio interior, capacidad del maletero, versatilidad y facilidad de uso diario.",
+    },
+    {
+      key: "value",
+      title: "Valor",
+      icon: Award,
+      value: currentReview.rating.value,
+      description: "Relación calidad-precio, equipamiento de serie y coste de mantenimiento.",
+    },
+    {
+      key: "design",
+      title: "Diseño",
+      icon: Tool,
+      value: currentReview.rating.design,
+      description: "Estética exterior e interior, calidad de materiales y acabados.",
+    },
+    {
+      key: "technology",
+      title: "Tecnología",
+      icon: Zap,
+      value: currentReview.rating.technology,
+      description: "Sistemas de infoentretenimiento, conectividad, asistentes a la conducción y tecnologías innovadoras.",
+    },
+    {
+      key: "efficiency",
+      title: "Eficiencia",
+      icon: Battery,
+      value: currentReview.rating.efficiency,
+      description: "Consumo de combustible o energía, emisiones y eficiencia general del vehículo.",
+    },
+    {
+      key: "safety",
+      title: "Seguridad",
+      icon: Shield,
+      value: currentReview.rating.safety,
+      description: "Sistemas de seguridad activa y pasiva, resultados en pruebas de choque y protección de ocupantes.",
+    },
   ]
 
   const getRatingColor = (score: number) => {
@@ -153,21 +210,60 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
   const fuelType = currentReview.isElectric ? "Eléctrico" : currentReview.fuelType === "diesel" ? "Diésel" : "Gasolina"
   const fuelIcon = currentReview.isElectric ? Zap : currentReview.fuelType === "diesel" ? Droplet : Flame
 
-  // Render legacy content format [{type, content}]
   const renderLegacyContent = (content: any[]) =>
     content.map((item, index) => {
-      if (item.type === "text") return <p key={index} className="mb-6 text-gray-700 leading-relaxed">{item.content}</p>
-      if (item.type === "tip") return (
-        <div key={index} className="my-8 px-6 py-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
-          <div className="flex items-center mb-2">
-            <Lightbulb className="w-5 h-5 text-blue-500 mr-2" />
-            <span className="font-semibold text-blue-800">Consejo del experto</span>
+      if (item.type === "text") {
+        return (
+          <p key={index} className="mb-6 text-gray-700 leading-relaxed">
+            {item.content}
+          </p>
+        )
+      }
+      if (item.type === "tip") {
+        return (
+          <div key={index} className="my-8 px-6 py-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+            <div className="flex items-center mb-2">
+              <Lightbulb className="w-5 h-5 text-blue-500 mr-2" />
+              <span className="font-semibold text-blue-800">Consejo del experto</span>
+            </div>
+            <p className="text-blue-900">{item.content}</p>
           </div>
-          <p className="text-blue-900">{item.content}</p>
-        </div>
-      )
+        )
+      }
       return null
     })
+
+  const renderContent = () => {
+    if (markdownContent === null) {
+      return <p className="text-gray-400 italic">Cargando contenido...</p>
+    }
+    if (markdownContent === "") {
+      return <p className="text-gray-400 italic">Contenido no disponible.</p>
+    }
+    const legacyContent = (currentReview as any).content
+    if (Array.isArray(legacyContent)) {
+      return renderLegacyContent(legacyContent)
+    }
+    return (
+      <ReactMarkdown
+        components={{
+          h2: ({ children }) => <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900 border-b pb-2">{children}</h2>,
+          h3: ({ children }) => <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">{children}</h3>,
+          p: ({ children }) => <p className="mb-4 leading-relaxed text-gray-800">{children}</p>,
+          strong: ({ children }) => <strong className="font-bold text-gray-900">{children}</strong>,
+          ul: ({ children }) => <ul className="list-disc pl-6 mb-4 space-y-1">{children}</ul>,
+          li: ({ children }) => <li className="text-gray-800 mb-1">{children}</li>,
+          blockquote: ({ children }) => (
+            <blockquote className="border-l-4 border-blue-400 bg-blue-50 px-4 py-2 my-4 rounded-r italic text-blue-900">
+              {children}
+            </blockquote>
+          ),
+        }}
+      >
+        {markdownContent}
+      </ReactMarkdown>
+    )
+  }
 
   const headings = [
     { id: "overview", text: "Nuestra Review", level: 2 },
@@ -203,7 +299,6 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
             </div>
           ) : (
             <>
-              {/* Cabecera */}
               <div className="mb-8">
                 <div className="flex items-center gap-4 mb-2">
                   {currentReview.rating.overall >= 9.5 && <EtherealCarIcon size={48} className="text-blue-500" />}
@@ -221,13 +316,19 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                   <span>•</span>
                   <span>
                     {new Date(currentReview.reviewDate).toLocaleDateString("es-ES", {
-                      year: "numeric", month: "long", day: "numeric",
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
                     })}
                   </span>
                 </div>
                 <div className="mt-4 flex flex-wrap gap-4">
                   {currentReview.medals.map((medal) => (
-                    <Link key={medal} href={`/sistema-medallas?medal=${medal}`} className="transform hover:scale-110 transition-transform duration-200">
+                    <Link
+                      key={medal}
+                      href={`/sistema-medallas?medal=${medal}`}
+                      className="transform hover:scale-110 transition-transform duration-200"
+                    >
                       {medals[medal]}
                     </Link>
                   ))}
@@ -242,7 +343,13 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                     <h2 className="text-2xl font-semibold mb-4">Destacados</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       {highlights.map((highlight, index) => (
-                        <motion.div key={highlight.title} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.1 }} className="bg-gray-50 p-4 rounded-lg flex items-center space-x-4">
+                        <motion.div
+                          key={highlight.title}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: index * 0.1 }}
+                          className="bg-gray-50 p-4 rounded-lg flex items-center space-x-4"
+                        >
                           <highlight.icon className="w-8 h-8 text-blue-500" />
                           <div>
                             <h3 className="font-semibold">{highlight.title}</h3>
@@ -299,7 +406,13 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                         <h3 className="text-xl font-semibold mb-2 text-green-600">Pros</h3>
                         <ul className="space-y-2">
                           {pros.map((pro, index) => (
-                            <motion.li key={index} initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: index * 0.1 }} className="flex items-center">
+                            <motion.li
+                              key={index}
+                              initial={{ opacity: 0, x: -20 }}
+                              animate={{ opacity: 1, x: 0 }}
+                              transition={{ delay: index * 0.1 }}
+                              className="flex items-center"
+                            >
                               <Plus className="h-5 w-5 text-green-500 mr-2 shrink-0" />
                               <span>{pro}</span>
                             </motion.li>
@@ -310,7 +423,13 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                         <h3 className="text-xl font-semibold mb-2 text-red-600">Contras</h3>
                         <ul className="space-y-2">
                           {cons.map((con, index) => (
-                            <motion.li key={index} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: index * 0.1 }} className="flex items-center">
+                            <motion.li
+                              key={index}
+                              initial={{ opacity: 0, x: 20 }}
+                              animate={{ opacity: 1, x: 0 }}
+                              transition={{ delay: index * 0.1 }}
+                              className="flex items-center"
+                            >
                               <Minus className="h-5 w-5 text-red-500 mr-2 shrink-0" />
                               <span>{con}</span>
                             </motion.li>
@@ -323,48 +442,32 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                   {/* Extras */}
                   <div className="mb-8 bg-white rounded-lg shadow-sm overflow-hidden">
                     <div className="p-6">
-                      <VehicleExtras extras={currentReview.extras} basePrice={currentReview.basePrice} totalPrice={currentReview.totalPrice} />
+                      <VehicleExtras
+                        extras={currentReview.extras}
+                        basePrice={currentReview.basePrice}
+                        totalPrice={currentReview.totalPrice}
+                      />
                     </div>
                   </div>
 
                   {/* Carrusel */}
                   <div className="mb-8">
                     <Suspense fallback={<div>Cargando imágenes...</div>}>
-                      <DynamicImageCarousel images={carouselImages} className="w-full h-[400px] md:h-[500px] lg:h-[600px]" />
+                      <DynamicImageCarousel
+                        images={carouselImages}
+                        className="w-full h-[400px] md:h-[500px] lg:h-[600px]"
+                      />
                     </Suspense>
                   </div>
 
-                  {/* Nuestra Review — Markdown desde .md */}
+                  {/* Nuestra Review */}
                   <section id="overview" className="bg-white rounded-lg shadow-sm p-8 mb-8">
                     <h2 className="text-3xl font-semibold mb-6">Nuestra Review</h2>
-                    {markdownContent === null ? (
-                      <p className="text-gray-400 italic">Cargando contenido...</p>
-                    ) : markdownContent === "" ? (
-                      <p className="text-gray-400 italic">Contenido no disponible.</p>
-                    ) : Array.isArray((currentReview as any).content) ? (
-                      // Legacy: array [{type, content}]
-                      renderLegacyContent((currentReview as any).content)
-                    ) : (
-                      // Nuevo: Markdown desde .md
-    <p style={{color:"red"}}>DEBUG: markdownContent length = {markdownContent?.length}</p>
-              <ReactMarkdown
-  className="prose prose-lg max-w-none"
-  components={{
-    h2: ({children}) => <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900">{children}</h2>,
-    h3: ({children}) => <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">{children}</h3>,
-    p: ({children}) => <p className="mb-4 leading-relaxed text-gray-800">{children}</p>,
-    strong: ({children}) => <strong className="font-bold text-gray-900">{children}</strong>,
-    ul: ({children}) => <ul className="list-disc pl-6 mb-4 space-y-1">{children}</ul>,
-    li: ({children}) => <li className="text-gray-800">{children}</li>,
-  }}
->
-  {markdownContent}
-</ReactMarkdown>
-                    )}
+                    {renderContent()}
                   </section>
 
                   <div className="mt-4 space-y-12">
-                    {/* Notas / Puntuaciones */}
+                    {/* Notas */}
                     <section id="details" ref={detailsRef} className="bg-white rounded-lg shadow-sm p-6">
                       <h2 className="text-2xl font-semibold mb-6">Notas</h2>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -375,27 +478,47 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                           const hasSubcategories = category.subcategories && category.subcategories.length > 0
                           let performanceAvg = displayValue
                           if (hasSubcategories) {
-                            const values = category.subcategories!.map((sub) => Math.abs(sub.value - 12) < 0.001 ? 10 : sub.value)
+                            const values = category.subcategories!.map((sub) =>
+                              Math.abs(sub.value - 12) < 0.001 ? 10 : sub.value
+                            )
                             performanceAvg = values.reduce((a, b) => a + b, 0) / values.length
                           }
                           return (
-                            <div key={category.key} className={`border-b border-gray-200 pb-4 ${isHonorMatricula ? "bg-purple-50 rounded-lg p-3" : ""}`}>
+                            <div
+                              key={category.key}
+                              className={`border-b border-gray-200 pb-4 ${isHonorMatricula ? "bg-purple-50 rounded-lg p-3" : ""}`}
+                            >
                               <div className="flex items-center justify-between mb-2">
                                 <Tooltip>
                                   <TooltipTrigger asChild>
                                     <div className="flex items-center gap-2 cursor-help">
-                                      <category.icon className={`w-5 h-5 ${isHonorMatricula ? "text-purple-600" : "text-gray-600"}`} />
-                                      <span className={`font-medium ${isHonorMatricula ? "text-purple-700" : ""}`}>{category.title}</span>
-                                      {isHonorMatricula && <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-purple-600 rounded-full">M.H.</span>}
+                                      <category.icon
+                                        className={`w-5 h-5 ${isHonorMatricula ? "text-purple-600" : "text-gray-600"}`}
+                                      />
+                                      <span className={`font-medium ${isHonorMatricula ? "text-purple-700" : ""}`}>
+                                        {category.title}
+                                      </span>
+                                      {isHonorMatricula && (
+                                        <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-purple-600 rounded-full">
+                                          M.H.
+                                        </span>
+                                      )}
                                     </div>
                                   </TooltipTrigger>
-                                  <TooltipContent><p className="max-w-xs">{category.description}</p></TooltipContent>
+                                  <TooltipContent>
+                                    <p className="max-w-xs">{category.description}</p>
+                                  </TooltipContent>
                                 </Tooltip>
-                                <span className={`text-2xl font-bold ${isHonorMatricula ? "text-purple-700" : getRatingColor(hasSubcategories ? performanceAvg : displayValue)}`}>
+                                <span
+                                  className={`text-2xl font-bold ${isHonorMatricula ? "text-purple-700" : getRatingColor(hasSubcategories ? performanceAvg : displayValue)}`}
+                                >
                                   {hasSubcategories ? performanceAvg.toFixed(1) : displayValue.toFixed(1)}
                                 </span>
                               </div>
-                              <Progress value={(hasSubcategories ? performanceAvg : displayValue) * 10} className={`h-2 mb-2 ${isHonorMatricula ? "bg-purple-200" : ""}`} />
+                              <Progress
+                                value={(hasSubcategories ? performanceAvg : displayValue) * 10}
+                                className={`h-2 mb-2 ${isHonorMatricula ? "bg-purple-200" : ""}`}
+                              />
                               {hasSubcategories && (
                                 <div className="mt-3 pl-4 border-l-2 border-gray-300">
                                   {category.subcategories!.map((subcategory) => {
@@ -407,13 +530,21 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                                           <Tooltip>
                                             <TooltipTrigger asChild>
                                               <div className="flex items-center gap-2 cursor-help">
-                                                {subcategory.key === "irregularSurface" ? <Mountain className="w-4 h-4 text-gray-600" /> : <Road className="w-4 h-4 text-gray-600" />}
+                                                {subcategory.key === "irregularSurface" ? (
+                                                  <Mountain className="w-4 h-4 text-gray-600" />
+                                                ) : (
+                                                  <Road className="w-4 h-4 text-gray-600" />
+                                                )}
                                                 <span className="text-sm font-medium">{subcategory.title}</span>
                                               </div>
                                             </TooltipTrigger>
-                                            <TooltipContent><p className="max-w-xs">{subcategory.description}</p></TooltipContent>
+                                            <TooltipContent>
+                                              <p className="max-w-xs">{subcategory.description}</p>
+                                            </TooltipContent>
                                           </Tooltip>
-                                          <span className={`text-sm font-bold ${subIsHM ? "text-purple-700" : ""}`}>{subVal.toFixed(1)}</span>
+                                          <span className={`text-sm font-bold ${subIsHM ? "text-purple-700" : ""}`}>
+                                            {subVal.toFixed(1)}
+                                          </span>
                                         </div>
                                         <Progress value={subVal * 10} className="h-1.5 mb-1" />
                                       </div>
@@ -449,16 +580,25 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                           {rivals.map((rival) => (
                             <div key={rival.id} className="border border-gray-200 rounded-lg overflow-hidden">
                               <div className="relative h-48">
-                                <Image src={rival.imageUrl || "/placeholder.svg"} alt={rival.title} fill className="object-cover" />
+                                <Image
+                                  src={rival.imageUrl || "/placeholder.svg"}
+                                  alt={rival.title}
+                                  fill
+                                  className="object-cover"
+                                />
                                 <div className="absolute top-2 right-2 bg-white rounded-full p-2 shadow-md">
                                   <span className="text-lg font-bold">{rival.rating.overall.toFixed(1)}</span>
                                 </div>
                               </div>
                               <div className="p-4">
-                                <h3 className="font-semibold text-lg mb-1">{rival.make} {rival.model}</h3>
+                                <h3 className="font-semibold text-lg mb-1">
+                                  {rival.make} {rival.model}
+                                </h3>
                                 <p className="text-sm text-gray-600 mb-3">{rival.year}</p>
                                 <p className="text-sm text-gray-700 mb-4 line-clamp-2">{rival.excerpt}</p>
-                                <Button variant="outline" size="sm" onClick={() => handleRivalClick(rival.id)}>Ver review</Button>
+                                <Button variant="outline" size="sm" onClick={() => handleRivalClick(rival.id)}>
+                                  Ver review
+                                </Button>
                               </div>
                             </div>
                           ))}
