@@ -35,6 +35,41 @@
   "youtubeId": "dQw4w9WgXcQ",
   "rivals": [1, 2, 3],
   "reviewDate": "2023-10-10",
-  "isElectric": true
+  "isElectric": true,
+  "reviewType": "detailed",
+  "medals": ["electric", "performance", "technology", "innovation"],
+  "summary": "El Polestar 2 Performance lleva la conducción eléctrica al límite con 476 CV, frenos Brembo y amortiguadores Öhlins en un paquete premium y deportivo.",
+  "accessories": [
+    {
+      "name": "Llantas de 20 pulgadas Performance",
+      "description": "Diseño de 4 radios en Y en negro",
+      "price": "1.200 €"
+    },
+    {
+      "name": "Pinzas de freno doradas",
+      "description": "Mejora estética y funcional",
+      "price": "500 €"
+    }
+  ],
+  "extras": [
+    {
+      "name": "Paquete Performance",
+      "description": "Amortiguadores Öhlins, frenos Brembo y más",
+      "price": "6.000 €"
+    },
+    {
+      "name": "Paquete Pilot",
+      "description": "Pilot Assist y Adaptive Cruise Control",
+      "price": "3.500 €"
+    },
+    {
+      "name": "Techo de cristal",
+      "description": "Con protección UV y reducción de ruido",
+      "price": "1.500 €"
+    }
+  ],
+  "basePrice": "64.190 €",
+  "totalPrice": "75.190 €",
+  "kilometersRecorded": 0
 }
 
