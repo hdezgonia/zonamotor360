@@ -20,13 +20,14 @@ export interface CarReview {
     technology: number
     efficiency: number
     safety: number
-    chargingEase?: number
-    range?: number
-    routeGeneration?: number
+    chargingEase?: number | null
+    range?: number | null
+    routeGeneration?: number | null
   }
   excerpt: string
   summary: string
-  content: string
+  slug: string           // nombre del archivo .md sin extensión (ej: "civic_type_r")
+  content?: string       // opcional — solo para reviews legacy con content en el JSON
   imageUrl: string
   specs: {
     power: string
@@ -34,6 +35,7 @@ export interface CarReview {
     topSpeed: string
     efficiency: string
     weight: string
+    engine?: string
   }
   youtubeId?: string
   rivals: number[]
@@ -42,6 +44,8 @@ export interface CarReview {
   kilometersRecorded: number
   medals: MedalType[]
   fuelType?: string
+  pros?: string[]
+  cons?: string[]
   accessories: {
     name: string
     description: string
@@ -58,4 +62,3 @@ export interface CarReview {
 }
 
 export type ReviewType = "short" | "detailed" | "first-impression" | "presentation"
-
