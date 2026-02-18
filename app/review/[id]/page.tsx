@@ -499,7 +499,7 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                                       </span>
                                       {isHonorMatricula && (
                                         <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-purple-600 rounded-full">
-                                          M.H.
+                                          Matricula de Honor
                                         </span>
                                       )}
                                     </div>
