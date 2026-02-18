@@ -43,14 +43,16 @@
   "medals": ["performance", "sport", "driver"],
   "pros": [
     "Récord de Nürburgring en tracción delantera",
-    "329 CV sin torque steer gracias al Dual Axis Strut",
-    "Recaro y Alcantara de serie",
-    "Maletero de 473 litros — muy práctico para un hot hatch"
+    "329 CV sin practicamente nada de torque steer gracias al Dual Axis Strut",
+    "Tracción en practicamente cualquier circunstancia",
+    "Maletero de 473 litros — muy práctico para un hot hatch",
+    "Modo de conducción personalizado al detalle"
   ],
   "cons": [
-    "Sin opciones de personalización — o todo o nada",
-    "Consumo elevado en ciudad en modo Sport/+R",
-    "Tecnología de infoentretenimiento mejorable"
+    "Cámara de marcha atras con poca resolución",
+    "Modo de suspensión Sport/+R solo usable en circuito",
+    "Tecnología de infoentretenimiento mejorable",
+    "El coche no se cierra automaticamente al alejarte"
   ],
   "accessories": [
     {
