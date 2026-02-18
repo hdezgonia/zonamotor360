@@ -1,4 +1,4 @@
-## Honda Civic Type R FL5 — La Bestia que Honda no tenía por que hacer, pero lo hizo (¡GRACIAS!)
+## Honda Civic Type R FL5 — La Bestia que Honda no tenía por que hacer, pero hizo (¡GRACIAS!)
 ## Introducción
 
 Hay coches que existen para llevarte del punto A al punto B. Y luego hay coches que existen para recordarte por qué te enamoraste de los coches. El Honda Civic Type R FL5 pertenece sin ninguna duda al segundo grupo, y lo hace con una naturalidad desarmante que solo los japoneses saben ejecutar.
