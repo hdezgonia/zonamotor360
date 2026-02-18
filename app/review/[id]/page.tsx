@@ -462,7 +462,6 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
 
                   {/* Nuestra Review */}
                   <section id="overview" className="bg-white rounded-lg shadow-sm p-8 mb-8">
-                    <h2 className="text-3xl font-semibold mb-6">Nuestra Review</h2>
                     {renderContent()}
                   </section>
 
