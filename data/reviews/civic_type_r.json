@@ -40,5 +40,40 @@
   "youtubeId": "dQw4w9WgXcQ",
   "rivals": [1, 2, 3],
   "reviewDate": "2024-03-15",
-  "isElectric": false
+  "isElectric": false,
+  "reviewType": "detailed",
+  "medals": ["performance", "sport", "driver"],
+  "summary": "El Civic Type R FL5 es el hot hatch más capaz del mercado, con récord en Nürburgring y 329 CV que se transmiten al asfalto con precisión quirúrgica.",
+  "accessories": [
+    {
+      "name": "Llantas BBS de 19 pulgadas",
+      "description": "Diseño exclusivo Type R en negro mate",
+      "price": "1.500 €"
+    },
+    {
+      "name": "Asientos Recaro con calefacción",
+      "description": "Upgrade de los Recaro de serie con calefacción integrada",
+      "price": "800 €"
+    }
+  ],
+  "extras": [
+    {
+      "name": "Paquete Honda Sensing",
+      "description": "Suite completa de asistentes de conducción",
+      "price": "Incluido"
+    },
+    {
+      "name": "Sistema de telemetría Honda LogR",
+      "description": "Grabación de datos en pista: G-forces, turbo, temperaturas",
+      "price": "Incluido"
+    },
+    {
+      "name": "Pintura Premium Crystal Black",
+      "description": "Acabado tricapa exclusivo",
+      "price": "950 €"
+    }
+  ],
+  "basePrice": "51.500 €",
+  "totalPrice": "54.750 €",
+  "kilometersRecorded": 0
 }
