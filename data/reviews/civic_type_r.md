@@ -1,4 +1,4 @@
-# Honda Civic Type R FL5 — La Bestia que Honda no Tenía que Hacer (Pero Gracias al Cielo lo Hizo)
+## Honda Civic Type R FL5 — La Bestia que Honda no Tenía que Hacer (Pero lo Hizo)
 
 ## Introducción
 
@@ -202,27 +202,15 @@ Es el tipo de coche que se compra cuando sabes exactamente lo que quieres: un ho
 
 Es honesto, es efectivo, es japonés en el mejor sentido de la palabra: cada pieza está donde está por una razón, cada decisión de ingeniería tiene una lógica que cuando la descubres te hace sonreír. No hay grasa, no hay exceso, no hay artificialidad. Solo ingeniería al servicio de la conducción.
 
-### Puntuaciones
-
-| Categoría | Nota |
-|---|---|
-| 🎯 Dinámica | 10/10 |
-| 🛣️ Uso diario | 8/10 |
-| 🎨 Diseño exterior | 9/10 |
-| 🪑 Interior y calidad | 8/10 |
-| 💰 Relación valor/precio | 9/10 |
-| 📱 Tecnología | 8/10 |
-| **Media** | **8,7/10** |
-
 > Una referencia absoluta del segmento.
 
 ---
 
-Si tienes unos 50.000 euros en el bolsillo y buscas el hot hatch más capaz, más emocionante y más honesto del mercado, el Honda Civic Type R FL5 no tiene rival. Ninguno.
+Si tienes unos 60.000 euros en el bolsillo y buscas el hot hatch más capaz, más emocionante y más honesto del mercado, el Honda Civic Type R FL5 no tiene rival. Ninguno.
 
 Los alemanes tienen más caballos. Los franceses tienen más historia en rally. Los ingleses tienen más locura. Pero ninguno lo hace todo tan bien como este japonés discreto, eficiente y absolutamente demoledor cuando lo necesitas.
 
-Honda podría haber hecho un Type R electrificado, más suave, más cómodo, más "de los tiempos". En su lugar, hizo este. Un coche con embrague, con escape sonoro, con una caja manual de seis velocidades y con el récord de Nürburgring en el bolsillo.
+Honda podría haber hecho un Type R electrificado, más suave, más cómodo, más "de los tiempos". En su lugar, hizo este. Un coche con embrague, con triple escape, con un motor de gasolina puro, con una caja manual de seis velocidades y con el récord de Nürburgring en el bolsillo.
 
 Por eso Honda sigue siendo Honda. Y por eso el Type R sigue siendo el Type R.
 
