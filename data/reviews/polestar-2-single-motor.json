@@ -61,5 +61,40 @@
   "rivals": [1, 2, 4],
   "reviewDate": "2023-09-05",
   "isElectric": true
+  "reviewType": "first-impression",
+  "medals": ["electric", "technology", "eco"],
+  "summary": "El Polestar 2 Single Motor ofrece una experiencia eléctrica refinada con 540 km de autonomía y diseño escandinavo minimalista a un precio competitivo.",
+  "accessories": [
+    {
+      "name": "Llantas de 20 pulgadas",
+      "description": "Diseño de 4 radios en Y",
+      "price": "1.000 €"
+    },
+    {
+      "name": "Interior Nappa",
+      "description": "Tapicería de cuero ventilada",
+      "price": "4.000 €"
+    }
+  ],
+  "extras": [
+    {
+      "name": "Paquete Pilot",
+      "description": "Pilot Assist y Adaptive Cruise Control",
+      "price": "3.500 €"
+    },
+    {
+      "name": "Paquete Plus",
+      "description": "Techo panorámico, audio Harman Kardon y más",
+      "price": "4.500 €"
+    },
+    {
+      "name": "Bomba de calor",
+      "description": "Mejora la eficiencia en climas fríos",
+      "price": "1.250 €"
+    }
+  ],
+  "basePrice": "50.190 €",
+  "totalPrice": "59.440 €",
+  "kilometersRecorded": 0
 }
 
