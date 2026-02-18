@@ -12,6 +12,9 @@
   "rating": {
     "overall": 9.75,
     "performance": 12.0,
+    "irregularSurface": 8.0,
+    "goodSurface":8.0,
+    "funToDrive": 12.0,
     "comfort": 9.0,
     "practicality": 9.0,
     "value": 9.5,
