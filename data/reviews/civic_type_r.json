@@ -12,12 +12,12 @@
   "rating": {
     "overall": 9.75,
     "performance": 12.0,
-    "irregularSurface": 8.0,
-    "goodSurface":8.0,
+    "irregularSurface": 9.5,
+    "goodSurface":10.0,
     "funToDrive": 12.0,
     "comfort": 9.0,
     "practicality": 9.0,
-    "value": 9.5,
+    "value": 10.0,
     "design": 9.0,
     "technology": 9.0,
     "efficiency": 8,
@@ -26,7 +26,7 @@
     "range": null,
     "routeGeneration": null
   },
-  "excerpt": "El Honda Civic Type R FL5 es el hot hatch de referencia absoluta. Con el récord de tracción delantera en Nürburgring en el bolsillo y 329 CV que se transmiten al asfalto con una eficacia sobrenatural, este japonés demuestra que no necesitas tracción total ni turbo de seis cilindros para dominar el segmento.",
+  "excerpt": "El Honda Civic Type R FL5 es el hot hatch de referencia absoluta. Con el récord de tracción delantera en Nürburgring en el bolsillo y 329 CV que se transmiten al asfalto con una eficacia sobrenatural.",
   "summary": "El Civic Type R FL5 es el hot hatch más capaz del mercado, con récord en Nürburgring y 329 CV que se transmiten al asfalto con precisión quirúrgica.",
   "imageUrl": "/HondaCivicTypeR_FL5.jpg",
   "specs": {
