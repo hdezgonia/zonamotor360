@@ -11,7 +11,7 @@
   "isElectric": true,
   "fuelType": "electric",
   "slug": "cupra_tavascan",
-  "imageUrl": "/tavascan_cover.jpg",
+  "imageUrl": "tavascancover.jpg",
   "galleryImages": [
     "/cupra_tavascan.jpg"
   ],
