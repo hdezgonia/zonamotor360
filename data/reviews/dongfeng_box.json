@@ -5,6 +5,7 @@
   "model": "Box",
   "trim": "Plus",
   "year": 2024,
+  "logoUrl": "/dongfenglogo.png",
   "reviewDate": "2025-02-14",
   "reviewType": "full",
   "isElectric": true,
