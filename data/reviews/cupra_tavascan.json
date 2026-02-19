@@ -1,0 +1,65 @@
+{
+  "id": 18,
+  "title": "Cupra Tavascan VZ",
+  "make": "Cupra",
+  "model": "Tavascan",
+  "trim": "VZ",
+  "year": 2024,
+  "reviewDate": "2025-02-18",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "cupra_tavascan",
+  "imageUrl": "/cupra_tavascan.jpg",
+  "galleryImages": [
+    "/cupra_tavascan.jpg"
+  ],
+  "excerpt": "El primer SUV propio de Cupra. 340 CV con tracción total, diseño radical con firma lumínica de lado a lado y 540 litros de maletero.",
+  "price": "desde 62.740 €",
+  "basePrice": 62740,
+  "totalPrice": 62740,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    17,
+    16,
+    12
+  ],
+  "pros": [
+    "Diseño exterior impactante — firma lumínica trasera única",
+    "Pantalla central de 15\" — la más grande de Cupra",
+    "521 km WLTP en VZ — suficiente para viajes largos",
+    "Maletero de 540 litros — amplio para un coupé",
+    "Connected Travel Assist Nivel 2 de serie"
+  ],
+  "cons": [
+    "Carga DC a 135 kW — inferior a rivales chinos de 800V",
+    "El VZ no tiene calibración de chasis deportiva suficiente para su potencia",
+    "Fabricado en China — debate de imagen de marca",
+    "Controles hápticos — curva de aprendizaje"
+  ],
+  "specs": {
+    "power": "340 CV (250 kW)",
+    "acceleration": "5,5 s (0-100)",
+    "topSpeed": "180 km/h",
+    "efficiency": "19-22 kWh/100km",
+    "weight": "2.185 kg",
+    "engine": "AWD Dual Motor MEB — 77 kWh"
+  },
+  "rating": {
+    "overall": 8.5,
+    "performance": 8.5,
+    "irregularSurface": 8,
+    "goodSurface": 8.8,
+    "funToDrive": 8.2,
+    "comfort": 8.4,
+    "practicality": 8.6,
+    "value": 8,
+    "design": 9.2,
+    "technology": 8.6,
+    "efficiency": 8.4,
+    "safety": 8.8
+  },
+  "extras": [],
+  "highlights": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": 14,
+  "title": "Dongfeng Box",
+  "make": "Dongfeng",
+  "model": "Box",
+  "trim": "Plus",
+  "year": 2024,
+  "reviewDate": "2025-02-14",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "dongfeng_box",
+  "imageUrl": "/dongfeng_box.jpg",
+  "galleryImages": [
+    "/dongfeng_box.jpg"
+  ],
+  "excerpt": "El urbano chino a 26.000 € que llega equipado hasta arriba: asientos ventilados, cámara 360°, V2L, 14 ADAS y batería LFP duradera.",
+  "price": "25.995 €",
+  "basePrice": 25995,
+  "totalPrice": 25995,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    15,
+    16,
+    17
+  ],
+  "pros": [
+    "Batería LFP duradera — cargable al 100% sin degradación",
+    "V2L incluido — carga dispositivos externos desde el coche",
+    "Asientos delanteros ventilados y calefactados de serie",
+    "Cámara 360° cenital de serie — inusual bajo 30.000 €",
+    "5 años de garantía de vehículo"
+  ],
+  "cons": [
+    "Velocidad máxima de 140 km/h — limitante en autopista frecuente",
+    "Umbral de carga del maletero alto (20 cm)",
+    "Red de posventa en expansión — solo 18 puntos en España (2024)"
+  ],
+  "specs": {
+    "power": "93 CV (70 kW)",
+    "acceleration": "10,6 s (0-100)",
+    "topSpeed": "140 km/h",
+    "efficiency": "14-16 kWh/100km",
+    "weight": "1.610 kg",
+    "engine": "PMSM delantero — LFP 42,3 kWh"
+  },
+  "rating": {
+    "overall": 7.9,
+    "performance": 6.5,
+    "irregularSurface": 7,
+    "goodSurface": 6.8,
+    "funToDrive": 6.2,
+    "comfort": 8,
+    "practicality": 8.2,
+    "value": 9.5,
+    "design": 8,
+    "technology": 8.5,
+    "efficiency": 8.8,
+    "safety": 8
+  },
+  "extras": [],
+  "highlights": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": 16,
+  "title": "Xpeng G6 AWD Performance",
+  "make": "Xpeng",
+  "model": "G6",
+  "trim": "AWD Performance",
+  "year": 2024,
+  "reviewDate": "2025-02-16",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "xpeng_g6",
+  "imageUrl": "/xpeng_g6.jpg",
+  "galleryImages": [
+    "/xpeng_g6.jpg"
+  ],
+  "excerpt": "487 CV, arquitectura 800V, carga DC hasta 280 kW, maletero de 571 litros y 5 estrellas Euro NCAP. El SUV que hace incómodas preguntas al Tesla Model Y.",
+  "price": "desde 47.990 €",
+  "basePrice": 47990,
+  "totalPrice": 57990,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    15,
+    12,
+    13
+  ],
+  "pros": [
+    "Arquitectura 800V — carga DC hasta 280 kW en Performance",
+    "487 CV con tracción total — 4,1 s de 0 a 100",
+    "Maletero de 571 litros — entre los más grandes del segmento",
+    "V2L de serie — hasta 3,3 kW de salida",
+    "5 estrellas Euro NCAP",
+    "Sistema de sonido X-opera de 18 altavoces de serie"
+  ],
+  "cons": [
+    "Red de carga propia inexistente — depende de red pública",
+    "Xmart OS — menos integración que Android Automotive",
+    "Maletero sin frunk en versión AWD"
+  ],
+  "specs": {
+    "power": "487 CV (358 kW)",
+    "acceleration": "4,1 s (0-100)",
+    "topSpeed": "200 km/h",
+    "efficiency": "17-19 kWh/100km",
+    "weight": "2.295 kg",
+    "engine": "AWD Dual Motor 800V — NCM 80,8 kWh"
+  },
+  "rating": {
+    "overall": 9,
+    "performance": 9.2,
+    "irregularSurface": 8.8,
+    "goodSurface": 9.2,
+    "funToDrive": 8.8,
+    "comfort": 8.6,
+    "practicality": 9,
+    "value": 9.3,
+    "design": 8.8,
+    "technology": 9.2,
+    "efficiency": 8.8,
+    "safety": 9
+  },
+  "extras": [],
+  "highlights": []
+}

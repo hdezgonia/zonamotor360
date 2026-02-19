@@ -1,0 +1,64 @@
+{
+  "id": 13,
+  "title": "Polestar 4 Long Range Dual Motor Performance",
+  "make": "Polestar",
+  "model": "4",
+  "trim": "Long Range Dual Motor Performance",
+  "year": 2024,
+  "reviewDate": "2025-02-12",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "polestar_4_performance",
+  "imageUrl": "/polestar_4_performance.jpg",
+  "galleryImages": [
+    "/polestar_4_performance.jpg"
+  ],
+  "excerpt": "544 CV, amortiguadores ZF activos, Brembo y llantas de 22 pulgadas. El SUV deportivo eléctrico más sofisticado de Polestar.",
+  "price": "desde 78.500 €",
+  "basePrice": 78500,
+  "totalPrice": 78500,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    10,
+    11,
+    12
+  ],
+  "pros": [
+    "544 CV con tracción total inteligente",
+    "Suspensión ZF activa CDD — adapta cada amortiguador en tiempo real",
+    "Frenos Brembo 392x34mm — presencia y rendimiento",
+    "Sin luna trasera: gran innovación funcional",
+    "580 km WLTP con 544 CV — excepcional"
+  ],
+  "cons": [
+    "Llantas de 22\" — sensibles en asfalto deteriorado",
+    "Precio de casi 80.000 € — techo elevado",
+    "Mayor peso que el Single Motor"
+  ],
+  "specs": {
+    "power": "544 CV (400 kW)",
+    "acceleration": "3,8 s (0-100)",
+    "topSpeed": "200 km/h",
+    "efficiency": "18-21 kWh/100km",
+    "weight": "2.400 kg",
+    "engine": "Dual Motor, tracción total — 100 kWh"
+  },
+  "rating": {
+    "overall": 9,
+    "performance": 9.6,
+    "irregularSurface": 9.2,
+    "goodSurface": 9.8,
+    "funToDrive": 9.3,
+    "comfort": 8.8,
+    "practicality": 8.5,
+    "value": 7.8,
+    "design": 9,
+    "technology": 9.3,
+    "efficiency": 8.6,
+    "safety": 9.2
+  },
+  "extras": [],
+  "highlights": []
+}

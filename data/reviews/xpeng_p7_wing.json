@@ -1,0 +1,65 @@
+{
+  "id": 15,
+  "title": "Xpeng P7 AWD Performance Wing Edition",
+  "make": "Xpeng",
+  "model": "P7",
+  "trim": "AWD Performance Wing Edition",
+  "year": 2024,
+  "reviewDate": "2025-02-15",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "xpeng_p7_wing",
+  "imageUrl": "/xpeng_p7_wing.jpg",
+  "galleryImages": [
+    "/xpeng_p7_wing.jpg"
+  ],
+  "excerpt": "473 CV, 505 km WLTP y puertas que se abren hacia arriba eléctricamente. La berlina china que convierte cada aparcamiento en un espectáculo.",
+  "price": "69.950 €",
+  "basePrice": 69950,
+  "totalPrice": 69950,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    16,
+    14,
+    12
+  ],
+  "pros": [
+    "Puertas delanteras de ala de gaviota accionadas eléctricamente — impacto visual único",
+    "473 CV con tracción total — 4,1 s de 0 a 100",
+    "XPILOT conducción asistida Nivel 2+ de serie",
+    "V2L incluido — hasta 3,3 kW de salida",
+    "5 años / 120.000 km de garantía"
+  ],
+  "cons": [
+    "Precio de 70.000 € — nicho específico",
+    "Carga DC a 175 kW — inferior a rivales de 800V",
+    "Sin frunk útil",
+    "XPILOT no es equiparable al Autopilot de Tesla"
+  ],
+  "specs": {
+    "power": "473 CV (348 kW)",
+    "acceleration": "4,1 s (0-100)",
+    "topSpeed": "200 km/h",
+    "efficiency": "17-19 kWh/100km",
+    "weight": "2.200 kg",
+    "engine": "AWD Dual Motor — NCM 82,7 kWh"
+  },
+  "rating": {
+    "overall": 8.7,
+    "performance": 9.2,
+    "irregularSurface": 8.5,
+    "goodSurface": 9,
+    "funToDrive": 9,
+    "comfort": 8.5,
+    "practicality": 8,
+    "value": 7.8,
+    "design": 9.5,
+    "technology": 9,
+    "efficiency": 8.5,
+    "safety": 8.8
+  },
+  "extras": [],
+  "highlights": []
+}

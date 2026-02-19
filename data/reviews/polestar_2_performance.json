@@ -1,0 +1,64 @@
+{
+  "id": 11,
+  "title": "Polestar 2 Long Range Dual Motor Performance",
+  "make": "Polestar",
+  "model": "2",
+  "trim": "Long Range Dual Motor Performance",
+  "year": 2024,
+  "reviewDate": "2025-02-08",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "polestar_2_performance",
+  "imageUrl": "/polestar_2_performance.jpg",
+  "galleryImages": [
+    "/polestar_2_performance.jpg"
+  ],
+  "excerpt": "476 CV con Brembo dorados, Öhlins ajustable y 4,2 segundos de 0 a 100. El ejecutivo eléctrico más apasionante del mercado.",
+  "price": "desde 65.400 €",
+  "basePrice": 65400,
+  "totalPrice": 65400,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    10,
+    12,
+    13
+  ],
+  "pros": [
+    "476 CV con tracción total perfectamente gestionada",
+    "Suspensión Öhlins ajustable manualmente — 22 clics por amortiguador",
+    "Frenos Brembo de 4 pistones con pinzas doradas",
+    "Diseño interior premium con acabados exclusivos Performance",
+    "Google integrado de serie"
+  ],
+  "cons": [
+    "Precio elevado: 65.400 € vs Tesla Model 3 Performance",
+    "592 km WLTP (menos que el Single Motor)",
+    "Limitado a 205 km/h — podría dar más"
+  ],
+  "specs": {
+    "power": "476 CV (350 kW)",
+    "acceleration": "4,2 s (0-100)",
+    "topSpeed": "205 km/h",
+    "efficiency": "16-18 kWh/100km",
+    "weight": "2.140 kg",
+    "engine": "Dual Motor, tracción total"
+  },
+  "rating": {
+    "overall": 9.1,
+    "performance": 9.5,
+    "irregularSurface": 9,
+    "goodSurface": 9.8,
+    "funToDrive": 9.4,
+    "comfort": 8.6,
+    "practicality": 7.8,
+    "value": 8.2,
+    "design": 9.2,
+    "technology": 9.5,
+    "efficiency": 8.4,
+    "safety": 9
+  },
+  "extras": [],
+  "highlights": []
+}

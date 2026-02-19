@@ -1,0 +1,64 @@
+{
+  "id": 10,
+  "title": "Polestar 2 Long Range Single Motor 2024",
+  "make": "Polestar",
+  "model": "2",
+  "trim": "Long Range Single Motor",
+  "year": 2024,
+  "reviewDate": "2025-02-01",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "polestar_2_lrsm",
+  "imageUrl": "/polestar_2_lrsm.jpg",
+  "galleryImages": [
+    "/polestar_2_lrsm.jpg"
+  ],
+  "excerpt": "El mejor Polestar 2 de la historia. Motor trasero, 659 km WLTP y carga a 205 kW. El punto dulce de toda la gama.",
+  "price": "desde 52.900 €",
+  "basePrice": 52900,
+  "totalPrice": 52900,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    11,
+    12,
+    13
+  ],
+  "pros": [
+    "Motor trasero: comportamiento dinámico radicalmente mejorado",
+    "659 km WLTP — la mejor autonomía de la gama",
+    "Carga DC a 205 kW — 10-80% en ~28 minutos",
+    "Interior minimalista con Google integrado de serie",
+    "Actualizaciones OTA continuas"
+  ],
+  "cons": [
+    "Precio elevado frente al Tesla Model 3 Long Range",
+    "Sin red de carga propia (depende de red pública)",
+    "Maletero de 405 L — justo para el segmento"
+  ],
+  "specs": {
+    "power": "299 CV (220 kW)",
+    "acceleration": "6,2 s (0-100)",
+    "topSpeed": "205 km/h",
+    "efficiency": "14-16 kWh/100km",
+    "weight": "2.010 kg",
+    "engine": "Síncrono imanes permanentes, trasero"
+  },
+  "rating": {
+    "overall": 8.9,
+    "performance": 8.5,
+    "irregularSurface": 8.2,
+    "goodSurface": 8.8,
+    "funToDrive": 8.6,
+    "comfort": 8.8,
+    "practicality": 8,
+    "value": 8.5,
+    "design": 9.2,
+    "technology": 9.5,
+    "efficiency": 9,
+    "safety": 9
+  },
+  "extras": [],
+  "highlights": []
+}

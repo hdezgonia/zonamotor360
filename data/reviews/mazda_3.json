@@ -1,0 +1,71 @@
+{
+  "id": 19,
+  "title": "Mazda 3 e-Skyactiv-X 186 CV",
+  "make": "Mazda",
+  "model": "3",
+  "trim": "e-Skyactiv-X Homura",
+  "year": 2024,
+  "reviewDate": "2025-02-19",
+  "reviewType": "full",
+  "isElectric": false,
+  "fuelType": "gasoline",
+  "slug": "mazda_3",
+  "imageUrl": "/mazda_3.jpg",
+  "galleryImages": [
+    "/mazda_3.jpg"
+  ],
+  "excerpt": "186 CV atmosféricos con encendido por compresión. El compacto más refinado, con el mejor interior del segmento C y un motor que redefine la eficiencia sin sacrificar la diversión.",
+  "price": "desde 31.532 €",
+  "basePrice": 31532,
+  "totalPrice": 34700,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    17,
+    18
+  ],
+  "pros": [
+    "Motor e-Skyactiv-X: eficiencia de diésel con respuesta de gasolina",
+    "Interior de la mayor calidad del segmento C — roza el segmento D",
+    "G-Vectoring Control Plus — chasis enormemente comunicativo",
+    "Diseño Kodo exterior e interior que no envejece",
+    "Etiqueta ECO DGT — circula sin restricciones en ZBE"
+  ],
+  "cons": [
+    "Maletero de 351 L — el más pequeño del segmento",
+    "0-100 en 7,8 s — no impresiona en papel (pero se conduce mejor de lo que sugiere)",
+    "Pantalla no táctil — requiere adaptación inicial",
+    "Solo 5 plazas con línea fastback limitante"
+  ],
+  "specs": {
+    "power": "186 CV (137 kW)",
+    "acceleration": "7,8 s (0-100)",
+    "topSpeed": "224 km/h",
+    "efficiency": "5,5-6,5 L/100km",
+    "weight": "1.430 kg",
+    "engine": "2.0 e-Skyactiv-X SPCCI M Hybrid 24V"
+  },
+  "rating": {
+    "overall": 8.6,
+    "performance": 8,
+    "irregularSurface": 7.8,
+    "goodSurface": 8.5,
+    "funToDrive": 8.8,
+    "comfort": 8.5,
+    "practicality": 7.4,
+    "value": 8.4,
+    "design": 9,
+    "technology": 8,
+    "efficiency": 8.8,
+    "safety": 8.6
+  },
+  "extras": [
+    {
+      "name": "Cambio automático 6 velocidades",
+      "price": 2300,
+      "included": false,
+      "description": "Recomendado para uso urbano intenso"
+    }
+  ],
+  "highlights": []
+}

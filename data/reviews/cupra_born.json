@@ -1,0 +1,65 @@
+{
+  "id": 17,
+  "title": "Cupra Born VZ",
+  "make": "Cupra",
+  "model": "Born",
+  "trim": "VZ",
+  "year": 2024,
+  "reviewDate": "2025-02-17",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "cupra_born",
+  "imageUrl": "/cupra_born.jpg",
+  "galleryImages": [
+    "/cupra_born.jpg"
+  ],
+  "excerpt": "326 CV, 590 km WLTP, tracción trasera y suspensión DCC Sport. El compacto eléctrico más apasionante de Europa. Hecho en España.",
+  "price": "desde 46.470 €",
+  "basePrice": 46470,
+  "totalPrice": 48240,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    16,
+    15,
+    18
+  ],
+  "pros": [
+    "326 CV con tracción trasera — el punto dulce dinámico",
+    "590 km WLTP — la mejor autonomía del segmento compacto eléctrico",
+    "Suspensión DCC Sport adaptativa de serie",
+    "Asientos CUPBucket con sujeción lateral excelente",
+    "Sistema de sonido Sennheiser 10 altavoces de serie"
+  ],
+  "cons": [
+    "Homologada para 4 plazas (no 5) por la batería de 79 kWh",
+    "Maletero de 385 L — el más pequeño de su clase",
+    "Head-up display situado demasiado bajo",
+    "Carga DC a 170 kW — correcta pero no líder"
+  ],
+  "specs": {
+    "power": "326 CV (240 kW)",
+    "acceleration": "5,6 s (0-100)",
+    "topSpeed": "200 km/h",
+    "efficiency": "16-18 kWh/100km",
+    "weight": "1.952 kg",
+    "engine": "Síncrono trasero MEB — 79 kWh"
+  },
+  "rating": {
+    "overall": 8.8,
+    "performance": 8.8,
+    "irregularSurface": 8.4,
+    "goodSurface": 9,
+    "funToDrive": 9.2,
+    "comfort": 8.2,
+    "practicality": 7.5,
+    "value": 8.8,
+    "design": 9,
+    "technology": 8.5,
+    "efficiency": 8.8,
+    "safety": 8.8
+  },
+  "extras": [],
+  "highlights": []
+}

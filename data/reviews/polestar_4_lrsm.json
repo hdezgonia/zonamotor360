@@ -1,0 +1,64 @@
+{
+  "id": 12,
+  "title": "Polestar 4 Long Range Single Motor",
+  "make": "Polestar",
+  "model": "4",
+  "trim": "Long Range Single Motor",
+  "year": 2024,
+  "reviewDate": "2025-02-10",
+  "reviewType": "full",
+  "isElectric": true,
+  "fuelType": "electric",
+  "slug": "polestar_4_lrsm",
+  "imageUrl": "/polestar_4_lrsm.jpg",
+  "galleryImages": [
+    "/polestar_4_lrsm.jpg"
+  ],
+  "excerpt": "El SUV que eliminó la luna trasera y la sustituyó por una cámara HD. 610 km WLTP, 272 CV y carga AC de 22 kW. Valiente y funcional.",
+  "price": "desde 65.900 €",
+  "basePrice": 65900,
+  "totalPrice": 65900,
+  "youtubeId": null,
+  "medals": [],
+  "rivals": [
+    10,
+    11,
+    13
+  ],
+  "pros": [
+    "610 km WLTP — la mejor autonomía de toda la gama Polestar",
+    "Sin luna trasera: más espacio y techo extendido para pasajeros traseros",
+    "Carga AC de 22 kW — compatible con instalaciones trifásicas domésticas",
+    "Pantalla central de 15,4\" con Android Automotive",
+    "Materiales sostenibles Tailored Knit (89% reciclado)"
+  ],
+  "cons": [
+    "La cámara trasera requiere adaptación (1-2 días)",
+    "Dependencia tecnológica total — sin cámara no hay visión trasera",
+    "Precio elevado para un motor single"
+  ],
+  "specs": {
+    "power": "272 CV (200 kW)",
+    "acceleration": "7,1 s (0-100)",
+    "topSpeed": "200 km/h",
+    "efficiency": "16-18 kWh/100km",
+    "weight": "2.250 kg",
+    "engine": "Síncrono, eje trasero — 100 kWh"
+  },
+  "rating": {
+    "overall": 8.8,
+    "performance": 8,
+    "irregularSurface": 8.3,
+    "goodSurface": 8.2,
+    "funToDrive": 7.8,
+    "comfort": 9,
+    "practicality": 8.8,
+    "value": 8.3,
+    "design": 9,
+    "technology": 9.3,
+    "efficiency": 9.2,
+    "safety": 9.2
+  },
+  "extras": [],
+  "highlights": []
+}
