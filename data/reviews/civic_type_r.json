@@ -40,8 +40,8 @@
   "galleryImages": [
   "/cover_type_r.jpg",
   "/trasera_type_r.jpg",
-  "/dashboard_type_r"
-]
+  "/dashboard_type_r.jpg"
+],
   "youtubeId": "czEWeiS6xVI",
   "rivals": [],
   "reviewDate": "2026-02-17",
@@ -88,5 +88,5 @@
   ],
   "basePrice": "51.500 €",
   "totalPrice": "54.750 €",
-  "kilometersRecorded": 0
+  "kilometersRecorded": 2500
 }
