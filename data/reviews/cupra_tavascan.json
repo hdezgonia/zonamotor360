@@ -11,9 +11,9 @@
   "isElectric": true,
   "fuelType": "electric",
   "slug": "cupra_tavascan",
-  "imageUrl": "tavascancover.jpg",
+  "imageUrl": "/tavascancover.jpg",
   "galleryImages": [
-    "/cupra_tavascan.jpg"
+    "/tavascancover.jpg"
   ],
   "excerpt": "El primer SUV propio de Cupra. 340 CV con tracción total, diseño radical con firma lumínica de lado a lado y 540 litros de maletero.",
   "price": "desde 62.740 €",
