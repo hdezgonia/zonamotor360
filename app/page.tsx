@@ -60,7 +60,7 @@ export default function Home() {
           src={featuredReview.imageUrl || "/placeholder.svg"}
           alt={featuredReview.title}
           fill
-          className="object-cover opacity-60 object-top"
+          className="object-cover opacity-75"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
