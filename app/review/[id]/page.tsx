@@ -274,7 +274,6 @@ blockquote: ({ children }) => (
     {children}
   </blockquote>
 ),
-          ),
           hr: () => (
             <div className="my-10 flex items-center gap-4">
               <div className="flex-1 h-px bg-gray-200" />
