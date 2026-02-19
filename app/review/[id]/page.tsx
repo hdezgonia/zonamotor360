@@ -269,10 +269,11 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
               <span>{children}</span>
             </li>
           ),
-          blockquote: ({ children }) => (
-            <blockquote className="my-8 px-6 py-5 bg-gray-900 text-white rounded-xl border-l-4 border-red-500 text-lg font-medium leading-relaxed shadow-lg">
-              {children}
-            </blockquote>
+blockquote: ({ children }) => (
+  <blockquote className="my-8 px-6 py-5 bg-gray-900 text-white rounded-xl border-l-4 border-red-500 text-lg font-medium leading-relaxed shadow-lg [&_*]:text-white">
+    {children}
+  </blockquote>
+),
           ),
           hr: () => (
             <div className="my-10 flex items-center gap-4">
