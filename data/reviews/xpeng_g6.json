@@ -11,6 +11,7 @@
   "fuelType": "electric",
   "slug": "xpeng_g6",
   "imageUrl": "/xpeng_g6.jpg",
+  "logoUrl": "/xpenglogo.png",
   "galleryImages": [
     "/xpeng_g6.jpg"
   ],
