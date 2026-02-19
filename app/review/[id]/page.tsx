@@ -31,6 +31,7 @@ import { Progress } from "@/components/ui/progress"
 import { EtherealCarIcon } from "../../../components/icons/EtherealCarIcon"
 import { medals } from "../../../components/Medals"
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import { VehicleExtras } from "../../../components/VehicleExtras"
 import dynamic from "next/dynamic"
 import { Suspense } from "react"
@@ -82,7 +83,7 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
   }
 
   const carouselImages = (currentReview as any).galleryImages || [currentReview.imageUrl]
-
+  const galleryImages = (currentReview as any).galleryImages || [currentReview.imageUrl]
   const rivals = reviews.filter((r) => currentReview.rivals.includes(r.id))
 
   const handleRivalClick = async (rivalId: number) => {
@@ -241,17 +242,51 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
     }
     return (
       <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
         components={{
+          h1: ({ children }) => <h1 className="text-3xl font-bold mt-10 mb-6 text-gray-900">{children}</h1>,
           h2: ({ children }) => <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900 border-b pb-2">{children}</h2>,
           h3: ({ children }) => <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">{children}</h3>,
           p: ({ children }) => <p className="mb-4 leading-relaxed text-gray-800">{children}</p>,
           strong: ({ children }) => <strong className="font-bold text-gray-900">{children}</strong>,
+          em: ({ children }) => <em className="italic text-gray-700">{children}</em>,
           ul: ({ children }) => <ul className="list-disc pl-6 mb-4 space-y-1">{children}</ul>,
+          ol: ({ children }) => <ol className="list-decimal pl-6 mb-4 space-y-1">{children}</ol>,
           li: ({ children }) => <li className="text-gray-800 mb-1">{children}</li>,
           blockquote: ({ children }) => (
             <blockquote className="border-l-4 border-blue-400 bg-blue-50 px-4 py-2 my-4 rounded-r italic text-blue-900">
               {children}
             </blockquote>
+          ),
+          hr: () => <hr className="my-8 border-gray-200" />,
+          img: ({ src, alt }) => (
+            <img
+              src={src}
+              alt={alt || ""}
+              className="w-full rounded-lg my-6 shadow-sm object-cover"
+            />
+          ),
+          table: ({ children }) => (
+            <div className="overflow-x-auto my-6">
+              <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden text-sm">
+                {children}
+              </table>
+            </div>
+          ),
+          thead: ({ children }) => (
+            <thead className="bg-gray-100 text-gray-700 font-semibold">{children}</thead>
+          ),
+          tbody: ({ children }) => (
+            <tbody className="divide-y divide-gray-200">{children}</tbody>
+          ),
+          tr: ({ children }) => (
+            <tr className="hover:bg-gray-50 transition-colors">{children}</tr>
+          ),
+          th: ({ children }) => (
+            <th className="px-4 py-3 text-left font-semibold text-gray-700">{children}</th>
+          ),
+          td: ({ children }) => (
+            <td className="px-4 py-3 text-gray-800">{children}</td>
           ),
         }}
       >
@@ -268,13 +303,6 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
     { id: "details", text: "Notas", level: 2 },
     { id: "video", text: "Video Review", level: 2 },
     { id: "rivals", text: "Rivales", level: 2 },
-  ]
-
-  const galleryImages = [
-    currentReview.imageUrl,
-    "/placeholder.svg?height=600&width=800&text=Interior",
-    "/placeholder.svg?height=600&width=800&text=Posterior",
-    "/placeholder.svg?height=600&width=800&text=Motor",
   ]
 
   return (
@@ -294,7 +322,8 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
             </div>
           ) : (
             <>
-              <div className="mb-8">
+              {/* Cabecera */}
+              <div className="mb-6">
                 <div className="flex items-center gap-4 mb-2">
                   {currentReview.rating.overall >= 9.5 && <EtherealCarIcon size={48} className="text-blue-500" />}
                   <h1 className="text-3xl md:text-4xl font-bold">{currentReview.title}</h1>
@@ -327,6 +356,29 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                       {medals[medal]}
                     </Link>
                   ))}
+                </div>
+              </div>
+
+              {/* Imagen hero */}
+              <div className="relative w-full h-[400px] md:h-[500px] rounded-xl overflow-hidden mb-8">
+                <Image
+                  src={currentReview.imageUrl}
+                  alt={currentReview.title}
+                  fill
+                  className="object-cover object-center"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute bottom-6 left-6 text-white">
+                  <span className="text-lg font-semibold opacity-90">
+                    {currentReview.make} {currentReview.model} {currentReview.trim}
+                  </span>
+                  <div className="flex items-center gap-3 mt-2">
+                    <span className="bg-white text-gray-900 font-bold px-3 py-1 rounded-lg text-xl">
+                      {currentReview.rating.overall.toFixed(1)}
+                    </span>
+                    <span className="text-sm opacity-80 font-medium">{currentReview.price}</span>
+                  </div>
                 </div>
               </div>
 
@@ -457,6 +509,7 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
 
                   {/* Nuestra Review */}
                   <section id="overview" className="bg-white rounded-lg shadow-sm p-8 mb-8">
+                    <h2 className="text-3xl font-semibold mb-6">Nuestra Review</h2>
                     {renderContent()}
                   </section>
 
@@ -494,7 +547,7 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
                                       </span>
                                       {isHonorMatricula && (
                                         <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-purple-600 rounded-full">
-                                          Matricula de Honor
+                                          Matrícula de Honor
                                         </span>
                                       )}
                                     </div>
