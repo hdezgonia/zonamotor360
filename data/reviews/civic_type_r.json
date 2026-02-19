@@ -59,34 +59,28 @@
   "cons": [
     "Cámara de marcha atras con poca resolución",
     "Modo de suspensión Sport/+R solo usable en circuito",
-    "Tecnología de infoentretenimiento mejorable",
-    "El coche no se cierra automaticamente al alejarte"
+    "Tecnología de infoentretenimiento mejorable"
   ],
   "accessories": [
-    {
-      "name": "Llantas BBS de 19 pulgadas",
-      "description": "Diseño exclusivo Type R en negro mate",
-      "price": "1.500 €"
-    },
-    {
-      "name": "Asientos Recaro con calefacción",
-      "description": "Upgrade de los Recaro de serie con calefacción integrada",
-      "price": "800 €"
-    }
   ],
   "extras": [
     {
-      "name": "Sistema de telemetría Honda LogR",
-      "description": "Grabación de datos en pista: G-forces, turbo, temperaturas",
-      "price": "Incluido"
+      "name": "Pack Carbono",
+      "description": "Spoiler trasero de fibra de carbono, Embellecedores de taloneras de fibra de carbono, Panel de la consola central de fibra de carbono",
+      "price": "3160 €"
     },
     {
-      "name": "Pintura Premium Crystal Black",
-      "description": "Acabado tricapa exclusivo",
-      "price": "950 €"
+      "name": "Pack Iluminación Rojo",
+      "description": "Iluminación roja de los paneles interiores de las puertas, Luces ambiente delanteras rojas, Iluminación de la consola central Type R, Proyectores Type R en las puertas",
+      "price": "1290 €"
+    },
+    {
+      "name": "Pintura Metalizada",
+      "description": "Negro Cristal Perlado, Rojo Rally, Blanco Championship, Azul Racing Perlado, Gris Sonic Perlado",
+      "price": "850 €"
     }
   ],
-  "basePrice": "51.500 €",
-  "totalPrice": "54.750 €",
+  "basePrice": "58850 €",
+  "totalPrice": "59.650 €",
   "kilometersRecorded": 2500
 }
