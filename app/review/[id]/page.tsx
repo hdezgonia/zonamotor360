@@ -81,12 +81,7 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
     notFound()
   }
 
-  const carouselImages = [
-    currentReview.imageUrl,
-    "/placeholder.svg?height=600&width=800&text=Interior",
-    "/placeholder.svg?height=600&width=800&text=Posterior",
-    "/placeholder.svg?height=600&width=800&text=Motor",
-  ]
+  const carouselImages = (currentReview as any).galleryImages || [currentReview.imageUrl]
 
   const rivals = reviews.filter((r) => currentReview.rivals.includes(r.id))
 
