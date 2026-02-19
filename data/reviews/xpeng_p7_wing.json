@@ -11,6 +11,7 @@
   "fuelType": "electric",
   "slug": "xpeng_p7_wing",
   "imageUrl": "/xpeng_p7_wing.jpg",
+  "logoUrl": "/xpenglogo.png",
   "galleryImages": [
     "/xpeng_p7_wing.jpg"
   ],
