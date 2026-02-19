@@ -13,23 +13,8 @@ import { ReviewBadge } from "../components/ReviewBadge"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
-  // Filtramos las reviews para mostrar solo los coches especificados
-  const specificReviews = reviews.filter(
-    (review) =>
-      (review.make === "Mazda" && review.model === "3" && review.trim === "Nagisa") ||
-      (review.make === "Mercedes" && review.model === "B180D" && review.trim === "Progressive") ||
-      (review.make === "Polestar" &&
-        review.model === "2" &&
-        (review.trim === "Single Motor" || review.trim === "Performance")),
-  )
-
-  // Ordenamos las reviews por fecha, con la más reciente primero
-  const sortedReviews = specificReviews.sort(
-    (a, b) => parseISO(b.reviewDate).getTime() - parseISO(a.reviewDate).getTime(),
-  )
-
-  const featuredReview = sortedReviews[0]
-  const latestReviews = sortedReviews.slice(1)
+  const featuredReview = reviews[0]
+  const latestReviews = reviews.slice(1, 4)
 
   // Datos de ejemplo para los testimonios
   const testimonials = [
