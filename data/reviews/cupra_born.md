@@ -135,12 +135,10 @@ El Born VZ obtuvo **5 estrellas en Euro NCAP**. El paquete incluye:
 
 ## Precio en España
 
-| Versión | Precio sin ayudas |
-|---------|------------------|
+| Versión | Precio |
+|---------|--------|
 | Born VZ Advanced | 46.470 € |
 | Born VZ Advanced Plus | 48.240 € |
-
-> Con ayudas del Plan MOVES III, el precio puede reducirse significativamente. El límite del plan (54.450 € IVA incluido) lo cubre holgadamente.
 
 ---
 
