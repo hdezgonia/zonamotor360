@@ -1,25 +1,37 @@
 {
   "id": 14,
-  "title": "Dongfeng Box",
+  "title": "Dongfeng BOX: un bombón en una caja de bombones",
   "make": "Dongfeng",
-  "model": "Box",
+  "model": "BOX",
   "trim": "Plus",
   "year": 2024,
   "logoUrl": "/dongfenglogo.png",
-  "reviewDate": "2025-02-14",
+  "reviewDate": "2026-11-03",
   "reviewType": "detailed",
   "isElectric": true,
   "fuelType": "electric",
+  "categories": ["Urbano", "Eléctrico"],
   "slug": "dongfeng_box",
   "imageUrl": "/dongfeng_box.jpg",
   "galleryImages": [
-    "/dongfeng_box.jpg"
+    "/dongfeng_box.jpg",
+    "/dongfeng_box_trasera.jpg",
+    "/dongfeng_box_dron.jpg",
+    "/dongfeng_box_interior.jpg",
+    "/dongfeng_box_pantalla.jpg",
+    "/dongfeng_box_cuadro.jpg",
+    "/dongfeng_box_plazas_traseras.jpg",
+    "/dongfeng_box_maletero.jpg",
+    "/dongfeng_box_llanta.jpg",
+    "/dongfeng_box_carga.jpg",
+    "/dongfeng_box_carga_pantalla.jpg"
   ],
-  "excerpt": "El urbano chino a 26.000 € que llega equipado hasta arriba: asientos ventilados, cámara 360°, V2L, 14 ADAS y batería LFP duradera.",
+  "excerpt": "Un urbano eléctrico pequeño que no conoce casi nadie y que nos ha sorprendido en todo: cómodo, fácil en ciudad, sin un ruido a 120 y lleno de detalles de un segmento superior. Su pega: no tiene Android Auto nativo.",
+  "summary": "El Dongfeng BOX es un urbano eléctrico pensado para el día a día que se conduce con una facilidad enorme, va muy aplomado en autopista y sorprende con detalles de coches más caros; el maletero justo y la falta de Android Auto nativo son lo que menos nos ha gustado.",
   "price": "25.995 €",
   "basePrice": 25995,
   "totalPrice": 25995,
-  "youtubeId": null,
+  "youtubeId": "TT9-DQsmH2U",
   "medals": [],
   "rivals": [
     15,
@@ -27,19 +39,21 @@
     17
   ],
   "pros": [
-    "Batería LFP duradera — cargable al 100% sin degradación",
-    "V2L incluido — carga dispositivos externos desde el coche",
-    "Asientos delanteros ventilados y calefactados de serie",
-    "Cámara 360° cenital de serie — inusual bajo 30.000 €",
-    "5 años de garantía de vehículo"
+    "Se cierra solo: si te vas con las ventanillas bajadas, sube los cristales y pone la P. «Pa tontos no, es pa lo siguiente» (Julio)",
+    "Una matrioska rusa: el reposabrazos esconde un cofre con muchísimo fondo. «Abracadabra, es como una chistera» (Julio)",
+    "Espacio atrás: con el asiento delantero puesto para alguien de 1,90, Julio (1,80) va «perfecto», y el suelo es «plano, plano»",
+    "A 120 en autopista, «ningún ruido, ninguna vibración, ningún grillo» (Adrián)",
+    "En ciudad, «un diez»: radio de giro muy corto y dirección muy precisa y muy rápida (Adrián)"
   ],
   "cons": [
-    "Velocidad máxima de 140 km/h — limitante en autopista frecuente",
-    "Umbral de carga del maletero alto (20 cm)",
-    "Red de posventa en expansión — solo 18 puntos en España (2024)"
+    "El climatizador, solo en la pantalla: sin acceso directo para tocarlo conduciendo, «no lo encontramos muy ergonómico» (Julio)",
+    "La cámara chivata de fatiga: «¿Qué pasa, que te duermes? Pues no, no me duermo, señora, que estoy conduciendo» (Julio)",
+    "Un maletero justo, «sí y no»: vale para cuatro un fin de semana, no para una familia de cinco (Julio)",
+    "Sin Android Auto nativo: para el móvil hace falta un adaptador o el cable. «El punto flojo de este vehículo» (Adrián)",
+    "El cristal de la puerta trasera: al salir ves la punta demasiado cerca, «un problema y bastante grave» (Julio)"
   ],
   "specs": {
-    "power": "93 CV (70 kW)",
+    "power": "95 CV (70 kW)",
     "acceleration": "10,6 s (0-100)",
     "topSpeed": "140 km/h",
     "efficiency": "14-16 kWh/100km",
