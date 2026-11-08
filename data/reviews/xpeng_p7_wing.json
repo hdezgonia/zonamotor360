@@ -10,7 +10,7 @@
   "isElectric": true,
   "fuelType": "electric",
   "slug": "xpeng_p7_wing",
-  "imageUrl": "/xpeng_p7_wing.jpg",
+  "imageUrl": "/p7winginterior(1).jpg",
   "logoUrl": "/xpenglogo.png",
   "galleryImages": [
     "/p7winginterior(1).jpg",
@@ -23,7 +23,7 @@
   "price": "69.950 €",
   "basePrice": 69950,
   "totalPrice": 69950,
-  "youtubeId": null,
+  "youtubeId": "-wT3cFIFt_Y",
   "medals": [],
   "rivals": [
     16,

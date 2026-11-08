@@ -10,10 +10,14 @@
   "isElectric": true,
   "fuelType": "electric",
   "slug": "polestar_4_performance",
-  "imageUrl": "/polestar_4_performance.jpg",
+  "imageUrl": "/polestar4_review.jpg",
   "logoUrl": "/polestarlogo.png",
   "galleryImages": [
-    "/polestar_4_performance.jpg"
+    "/polestar4_review.jpg",
+    "/polestar4_dinamic.jpg",
+    "/polestar_4_back.jpg",
+    "/polestar_4_teaser.jpg",
+    "/polestar_4_frontal.jpg"
   ],
   "excerpt": "544 CV, amortiguadores ZF activos, Brembo y llantas de 22 pulgadas. El SUV deportivo eléctrico más sofisticado de Polestar.",
   "price": "desde 78.500 €",
